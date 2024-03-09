@@ -10,7 +10,7 @@ const Banner = () => {
   var icon_apear = 700;
   
   return (
-    <section className='bg-neutral-500 h-[720px]' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
+    <section className='bg-neutral-500 h-screen md:h-[720px]' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full relative -space-x-48 lg:-space-x-24'>
           {/* text */}

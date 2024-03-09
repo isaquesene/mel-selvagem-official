@@ -10,10 +10,31 @@ import 'swiper/css/navigation';
 const CommunitySlider = ({testimonials}) => {
   return (
     <Swiper 
-      slidesPerView={3} 
-      spaceBetween={15} 
-      centeredSlides={'auto'} 
+      slidesPerView={3}
+      spaceBetween={15}
       grabCursor={true}
+      edgeSwipeDetection={true}
+      center centerInsufficientSlides={true}
+      breakpoints={
+        {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          }
+        }
+      }
       modules={[]}
     >
       {testimonials.map((testimonial, idx)=>{
