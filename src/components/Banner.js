@@ -5,10 +5,12 @@ import { banner } from '../data';
  
 const Banner = () => {
   // estrutura banner
-  const { titlePart1, titlePart2, subtitle, textBtn, link} = banner;
+  const { titlePart1, titlePart2, subtitle, social_media, textBtn, link} = banner;
+  
+  var icon_apear = 700;
   
   return (
-    <section className='bg-neutral-500 h-[790px]'>
+    <section className='bg-neutral-500 h-screen md:h-[720px]' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full relative -space-x-48 lg:-space-x-24'>
           {/* text */}
@@ -18,6 +20,22 @@ const Banner = () => {
               <span className='text-primary-400'>{titlePart2}</span>
             </h1>
             <p className='max-w-[415px] text-body-md lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>{subtitle}</p>
+            {/* redes sociais */} 
+            <ul className='flex gap-x-8 mb-8'>
+            {social_media.map((item, index) => {
+                return <li key={index} className='hover:scale-110'>
+                  <a
+                    href={item.link}
+                    target="_blank"
+                  >
+                    <img src={item.logo} alt={item.alt} width="40px"
+                    data-aos='fade-down' data-aos-delay={icon_apear += 250}/> {/*Efeito de aparecer um por vez*/} 
+                  </a>
+                </li>
+              })
+            }
+            </ul>
+            {/* botão */}
             <button className='btn btn-sm lg:btn-lg btn-secondary' data-aos='fade-down' data-aos-delay='700'>
               <a href={link}/>
               {textBtn}

@@ -19,12 +19,13 @@ const NavMobile = ({navMobile}) => {
             </li>
           );
         })}
+        <li>
+          {/* buttons */}
+          {/*<div className='-mt-44 flex justify-center gap-x-8'>*/}
+            <a href='https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?' className='btn btn-lg btn-primary'>Fale Conosco</a>
+            {/*<button>Sign up</button>*/}
+        </li>
       </ul>
-      {/* buttons */}
-      <div className='-mt-44 flex justify-center gap-x-8'>
-        <a href='https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?' className='btn btn-lg btn-primary'>Fale Conosco</a>
-        {/*<button>Sign up</button>*/}
-      </div>
     </div>
   );
 };

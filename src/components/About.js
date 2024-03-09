@@ -11,7 +11,7 @@ const About = () => {
   const { title, subtitle1, subtitle2, subtitle3, subtitle21, icon, link, btnText } = about;
 
   return (
-    <section className='py-[80px] md:py-[110px] lg:pt-[140px] lg:pb-[180px]'>
+    <section className='pt-[80px] md:pt-[110px] lg:pt-[140px]' id='about'>
       <div className='container mx-auto px-[20px] lg:px-[135px]'>
         {/* section title */}
         <div 

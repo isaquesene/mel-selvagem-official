@@ -2,6 +2,15 @@ import React from 'react';
 
 //import data
 import {nav} from '../data';
+import { RiWindowsFill } from 'react-icons/ri';
+
+function autoScroll(id){
+  const element = document.getElementById(id);
+  window.scrollTo({
+    top: element.offsetTop,
+    behavior: 'smooth'
+  });
+}
 
 const Nav = () => {
   return (
@@ -11,7 +20,8 @@ const Nav = () => {
           return <li key={idx}>
             <a 
               className='hover:text-primary-500'
-              href={item.href}
+              // href={'#'+item.href}
+              onClick={() => autoScroll(item.href)}
             >
               {item.name}
             </a>

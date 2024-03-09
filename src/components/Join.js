@@ -6,7 +6,7 @@ const Join = () => {
   const { image, title, subtitle, btnText, pix, link } = join;
 
   return (
-    <section className='bg-neutral-500 min-h-[537px]'>
+    <section className='bg-neutral-500 min-h-[537px]' id='join'>
       <div className='container mx-auto'>
         <div className='flex flex-col md:flex-row md:items-center md:-space-x-12 -space-y-24 lg:space-y-0'>
           <div
