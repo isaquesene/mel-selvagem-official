@@ -209,39 +209,37 @@ export const faq = {
   title: 'Curiosidades',
   accordions: [
     {
+      question: 'Por que usar mel no meu dia a dia?',
+      answer:
+      '• Nós aprendemos com nossas mães quando éramos crianças a usar o mel como remédio, em caso de dor de garganta ou tosse. De fato, o mel é muito bom para isso, pois é um cicatrizante e bactericida. Mas ficar apenas nisso é utilizar pouco deste poderoso alimento. Por exemplo, como o mel é um alimento sequestrante de radicais livres, retarda o envelhecimento precoce. ' + 
+      'Também, como nosso organismo não precisa digeri-lo para que circule em nossa corrente sanguínea, nos fornece energia de forma imediata.Além disso, será um excelente substituto para adoçar bebidas como café, sucos ou chás. Enfim, convidamos você a degustar e conhecer este alimento orgânico e milenar.',
+    },
+    {
       question: 'Por que o mel cristaliza?',
       answer:
-        'O mel genuíno tem uma tendência À cristalização, causada pela reação do hidrogênio do ar com a frutose que esta presente no mel, produzindo hidreto de frutose, que é sólido.',
+        '• Ao contrário do que se pensa, todo mel puro e genuíno vai cristalizar ao longo do tempo ou mesmo em temperaturas mais baixas. O mel se constitui principalmente de duas substâncias, a glicose e a frutose. Com o passar do tempo e com o hidrogênio presente no ambiente, a combinação deste com a frutose produzirá o hidreto de frutose, o qual, em temperatura ambiente, é sólido, ou seja, gera a cristalização do mel. '+
+        'O mel cristalizado terá uma consistência de doce de leite e não há nenhum problema em consumi-lo assim; do ponto de vista nutricional, são idênticos. Saiba, inclusive, que em muitos países europeus, a consistência pastosa ou cristalizada é a forma preferida de se consumir mel, pois fica mais fácil de passá-lo no pão ou bolachas. Então, se o mel cristalizar, você pode usá-lo normalmente e é um ótimo indicador de sua autenticidade.',
     },
     {
-      question: 'Como faço para retornar o mel ao estado líquido?',
+      question: 'Se o mel cristalizar, como faço para retornar ao modo líquido?',
       answer:
-        'Recomendamos a colocação em banho maria, todavia, a temperatura não pode passar de 45° C. Não se deve levar o mel em temperatura mais alta que isto, pois provoca a oxidação do mel (hidróxido metil furfural – HMF), tornando o alimento não adequado ao consumo humano.',
+        '• Você pode colocá-lo em banho-maria. No entanto, não deixe que a temperatura da água ultrapasse 45°C, para evitar que o mel oxide e fique impróprio para o consumo.',
     },
     {
-      question: 'Por que a cor do mel pode variar?',
+      question: 'Por que o mel tem cores diferentes?',
       answer:
-        'A cor varia porque s abelhas produzem o mel dependendo do que coletam na natureza. Espécies vegetais diferentes, produzem mel com diferentes cores. A cor do mel é determinada pela quantidade de sais minerais que contém. Quanto mais escuro, mais sais minerais. Por outro lado, quanto mais claro, mas saboroso o mel.',
+        '• Para produzirem o mel, as abelhas coletam néctar das flores que encontram na natureza. Espécies vegetais diferentes geram mel de diferentes colorações. A cor do mel será determinada pela quantidade de sais minerais que contém.',
     },
     {
-      question: 'Curiosidades do mel',
+      question: 'Quanto tempo pode durar o mel?',
       answer:
-        '• É um produto utilizado deste a antiguidade para o tratamento de doenças respiratórias e cicatrizantes;  Funciona como um poderoso agente biológico, capaz de dar eliminar microrganismos, como bactérias, fungos, leveduras, vírus, etc. O principal agente bactericida contido no mel é o peróxido de hidrogênio;',
+        '• Devido à sua baixa umidade e alto teor de açúcar, o mel possui uma longa vida útil quando armazenado corretamente. De fato, os arqueólogos já encontraram potes de mel em tumbas egípcias com mais de 3000 anos de idade, ainda comestíveis! Isso faz do mel um dos alimentos mais duráveis e estáveis naturalmente. Em conformidade com a legislação, você encontrará prazo de validade de dois anos para o consumo nas embalagens do produto comercializado no Brasil.',
     },
     {
-      question: 'Outros produtos apícolas (Própolis)',
+      question: 'Outras informações importantes sobre o mel?',
       answer:
-        '• Própolis: É um dos mais poderosos agentes antimicrobianos do mundo. As abelhas coletam o própolis, como uma resina no tronco e nos brotos dos vegetais, formando uma espécie de liga. Nas colmeias, será utilizada para vedar as frestas.',
-    },
-    {
-      question: 'Outros produtos apícolas (Cera das abelhas)',
-      answer:
-        '• Cera das abelhas: Sua finalidade mais conhecida é a cosmética, fazendo parte da constituição de produtos como batons, cremes, loções, cera depilatória e óleos.',
-    },
-    {
-      question: 'Outros produtos apícolas (Geléia real)',
-      answer:
-        '• Geléia real: Do ponto de vista nutricional, é o alimento mais completo que existe. Todos os 23 aminoácidos existentes na natureza estão na geleia real. Todos os 84 sais minerais, estão presentes na geleia real. Na apiterapia a geleia real é utilizada para nutrir pessoas com problemas relacionados a rins, pâncreas, disfunções ligadas á diabetes. Também é utilizada no tratamento de  fertilidade, impotência sexual, cansaço e stress. ',
+        '• O mel é um produto conhecido desde a antiguidade. Para se ter uma idéia, chineses criam abelhas há seis mil anos. Desde sempre foi utilizado para o tratamento de doenças respiratórias ou como cicatrizante. Hoje sabemos que o mel é um poderoso agente biológico, capaz de eliminar micro-organismos como bactérias, fungos, leveduras, vírus, etc. O principal agente bacteriano contido no mel é o peróxido de hidrogênio. '+
+        'Outra atividade antibiótica é o processo de osmose. Como o mel é muito viscoso, contém pouca água, cerca de 18%, e elimina bactérias por desidratação (bactérias têm 75% do corpo composto por água). Um fato é inquestionável, na base de nossa saúde, se encontra em uma dieta com alimentos de qualidade e o mel, será sempre um componente valioso em nossa alimentação.',
     },
   ],
 };
