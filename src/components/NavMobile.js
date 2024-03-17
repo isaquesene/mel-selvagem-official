@@ -2,8 +2,9 @@ import React from 'react';
 
 //import data
 import {nav} from '../data';
+import { autoScroll } from '../tools';
 
-const NavMobile = ({navMobile}) => {
+const NavMobile = ({navMobile, setNavMobile}) => {
   return (
     <div className={`${navMobile ? 'min-h-screen' : 'min-h-0'} lg:hidden w-full bg-neutral-500 fixed top-0 left-0 right-0 -bottom-12 -z-10 overflow-hidden transition-all h-0`}>
       <ul className='w-full h-full flex flex-col justify-center items-center gap-y-8'>
@@ -11,8 +12,11 @@ const NavMobile = ({navMobile}) => {
           return (
             <li key={idx} >
               <a
-                className='text-white text-body-md' 
-                href={item.href}
+                className='text-white text-body-md'
+                onClick={() => {
+                  setNavMobile(false)
+                  autoScroll(item.href)
+                }}
               >
               {item.name}
               </a>

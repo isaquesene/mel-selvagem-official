@@ -28,7 +28,7 @@ const Header = () => {
   const { logo, btnLoginText, btnSignupText, link } = header;
 
   return (
-    <header className={`${isActive ? 'bg-neutral-500 py-[16px]' : 'bg-transparent py-[20px]'} fixed max-w-[1440px] z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
+    <header className={`${isActive ? 'bg-neutral-500 py-[16px]' : 'bg-transparent py-[20px]'} fixed z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
       {/* logo */}
       <a href=''>
         <img className='h-[70px]' src={logo} alt=''/>
@@ -52,7 +52,7 @@ const Header = () => {
             )}
       </div>
       {/* nav mobile - hidden */}
-      <NavMobile navMobile={navMobile}/>
+      <NavMobile navMobile={navMobile} setNavMobile={setNavMobile}/>
     </header>
   );
 };

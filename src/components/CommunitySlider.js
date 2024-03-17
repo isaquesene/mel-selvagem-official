@@ -14,7 +14,7 @@ const CommunitySlider = ({testimonials}) => {
       spaceBetween={15}
       grabCursor={true}
       edgeSwipeDetection={true}
-      center centerInsufficientSlides={true}
+      centerInsufficientSlides={true}
       breakpoints={
         {
           0: {

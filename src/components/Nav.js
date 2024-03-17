@@ -3,14 +3,7 @@ import React from 'react';
 //import data
 import {nav} from '../data';
 import { RiWindowsFill } from 'react-icons/ri';
-
-function autoScroll(id){
-  const element = document.getElementById(id);
-  window.scrollTo({
-    top: element.offsetTop,
-    behavior: 'smooth'
-  });
-}
+import {autoScroll} from '../tools.js'
 
 const Nav = () => {
   return (

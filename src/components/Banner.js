@@ -43,8 +43,8 @@ const Banner = () => {
           </div>
           {/* imagem */}
           <div 
-            className='bg-blue-300 w-full h-full bg-banner br-cover br-right lg:bg-center bg-no-repeat flex-1'
-            data-aos='fade-right' 
+            className='w-full h-full bg-banner br-cover br-right lg:bg-center bg-no-repeat flex-1 bg-left'
+            data-aos='fade-left' 
             data-aos-delay='900'
           >
             {/* imagem colheita */}

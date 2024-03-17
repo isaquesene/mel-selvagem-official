@@ -42,8 +42,8 @@ export const nav = [
 ];
 
 export const banner = {
-  titlePart1: 'Do produtor do campo',
-  titlePart2: '– para sua mesa.',
+  titlePart1: 'Do produtor',
+  titlePart2: 'direto para a sua mesa',
   subtitle:
     ' Mel puro, natural e saudável',
   textBtn: 'Garanta aqui',
@@ -212,7 +212,7 @@ export const faq = {
       question: 'Por que usar mel no meu dia a dia?',
       answer:
       '• Nós aprendemos com nossas mães quando éramos crianças a usar o mel como remédio, em caso de dor de garganta ou tosse. De fato, o mel é muito bom para isso, pois é um cicatrizante e bactericida. Mas ficar apenas nisso é utilizar pouco deste poderoso alimento. Por exemplo, como o mel é um alimento sequestrante de radicais livres, retarda o envelhecimento precoce. ' + 
-      'Também, como nosso organismo não precisa digeri-lo para que circule em nossa corrente sanguínea, nos fornece energia de forma imediata.Além disso, será um excelente substituto para adoçar bebidas como café, sucos ou chás. Enfim, convidamos você a degustar e conhecer este alimento orgânico e milenar.',
+      'Também, como nosso organismo não precisa digeri-lo para que circule em nossa corrente sanguínea, nos fornece energia de forma imediata. \nAlém disso, será um excelente substituto para adoçar bebidas como café, sucos ou chás. Enfim, convidamos você a degustar e conhecer este alimento orgânico e milenar.',
     },
     {
       question: 'Por que o mel cristaliza?',

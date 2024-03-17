@@ -68,4 +68,7 @@
   .section-title {
     @apply flex -space-x-4;
   }
+  .active-acc{
+    @apply min-h-[200px] lg:min-h-[160px] pb-[20px] lg:pb-[40px];
+  }
 }

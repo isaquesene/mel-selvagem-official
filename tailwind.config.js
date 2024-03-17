@@ -14,7 +14,7 @@ module.exports = {
       sm: '640px',
       md: '768px',
       lg: '1024px',
-      xl: '1038px',
+      xl: '1280px',
     },
     extend: {
       colors: {
@@ -43,6 +43,18 @@ module.exports = {
         cover: 'cover',
         contain: 'contain',
         custom: '95%',
+      },
+      backgrounfPosition: {
+        bottom: 'bottom',
+        center: 'center',
+        left: 'left',
+        'left-bottom': 'left bottom',
+        'left-top': 'left top',
+        'left-c-2': '2rem center',
+        right: 'right',
+        'right-bottom': 'right bottom',
+        'right-top': 'right top',
+        top: 'top',
       },
     },
   },

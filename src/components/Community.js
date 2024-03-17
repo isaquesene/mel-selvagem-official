@@ -25,7 +25,7 @@ const Community = () => {
             </h2>
           </div>
           {/* slider */}
-          <div className='relative lg:w-[75%] lg:top-0'
+          <div className='relative lg:w-[70%] lg:top-0'
             data-aos='fade-left'
             data-aos-offset='200'
             data-aos-delay='300'
