@@ -28,17 +28,17 @@ const Header = () => {
   const { logo, btnLoginText, btnSignupText, link } = header;
 
   return (
-    <header className={`${isActive ? 'bg-neutral-500 py-[16px]' : 'bg-transparent py-[20px]'} fixed z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
+    <header className={`${isActive ? 'bg-primary-400 py-[16px]' : 'bg-transparent py-[20px]'} fixed z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
       {/* logo */}
       <a href=''>
-        <img className='h-[70px]' src={logo} alt=''/>
+        <img className='lg:h-[65px] h-[50px]' src={logo} alt=''/>
         {/*<p className='text-white h-[30px]'>Mel selvagem</p>*/}
       </a>
       {/* nav inicial hidden*/}
       <Nav />
       {/* btn inicializa hidden */}
       <div className='hidden lg:flex space-x-4'>
-        <a href={link} className='btn btn-sm btn-primary'>{btnLoginText}</a>
+        <a href={link} className={'btn btn-sm ' + (isActive ? 'btn-secondary' : 'btn-primary')}>{btnLoginText}</a>
         {/*<button>{btnSignupText}</button>*/}
       </div>
       {/* nav menu btn - hidden */}
@@ -46,9 +46,9 @@ const Header = () => {
         onClick={() => setNavMobile(!navMobile)} 
         className='lg:hidden absolute right-4'>
           {
-            navMobile ? ( <RiCloseFill className='text-primary-400 text-3xl cursor-pointer' /> ) :
+            navMobile ? ( <RiCloseFill className={'text-primary-400 text-3xl cursor-pointer'} /> ) :
             ( 
-              <RiMenu4Fill className='text-primary-400 text-3xl cursor-pointer'/>
+              <RiMenu4Fill className={(isActive ? 'text-neutral-500' : 'text-primary-400') + ' text-3xl cursor-pointer'}/>
             )}
       </div>
       {/* nav mobile - hidden */}

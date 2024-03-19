@@ -34,11 +34,11 @@ export const header = {
 
 export const nav = [
   { name: 'Home', href: 'banner'},
-  { name: 'Nossa missão', href: 'about' },
-  { name: 'Nosso trabalho', href: 'workouts' },
-  { name: 'Receitas', href: 'community' },
-  { name: 'Perguntas', href: 'faq' },
   { name: 'Produto', href: 'join' },
+  { name: 'Sobre nós', href: 'workouts' },
+  { name: 'Nossa missão', href: 'about' },
+  { name: 'Perguntas', href: 'faq' },
+  { name: 'Receitas', href: 'community' },
 ];
 
 export const banner = {
