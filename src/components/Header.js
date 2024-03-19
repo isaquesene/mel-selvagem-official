@@ -38,7 +38,7 @@ const Header = () => {
       <Nav />
       {/* btn inicializa hidden */}
       <div className='hidden lg:flex space-x-4'>
-        <a href={link} className={'btn btn-sm ' + (isActive ? 'btn-secondary' : 'btn-primary')}>{btnLoginText}</a>
+        <a href={link} className={'btn btn-sm ' + (isActive ? 'btn-secondary' : 'btn-primary')} target='_blank'>{btnLoginText}</a>
         {/*<button>{btnSignupText}</button>*/}
       </div>
       {/* nav menu btn - hidden */}

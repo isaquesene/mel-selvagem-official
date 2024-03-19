@@ -8,10 +8,10 @@ import { IoIosArrowDroprightCircle } from 'react-icons/io';
 
 const About = () => {
   //estrutura about data
-  const { title, subtitle1, subtitle2, subtitle3, subtitle21, icon, link, btnText } = about;
+  const { title, icon, link, btnText } = about;
 
   return (
-    <section className='section pt-[140px]' id='about'>
+    <section className='section py-[120px]' id='about'>
       <div className='container mx-auto px-[20px] lg:px-[135px]'>
         {/* section title */}
         <div 

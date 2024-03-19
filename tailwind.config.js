@@ -12,9 +12,9 @@ module.exports = {
     },
     screens: {
       sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1278px',
+      md: '769px',
+      lg: '1026px',
+      xl: '1282px',
     },
     extend: {
       colors: {
@@ -37,6 +37,7 @@ module.exports = {
       backgroundImage: {
         banner: "url('/src/assets/img/banner/bg.jpeg')",
         faq: "url('/src/assets/img/faq/bg.svg')",
+        'auto-height': 'auto 100%',
       },
       backgroundSize: {
         auto: 'auto',

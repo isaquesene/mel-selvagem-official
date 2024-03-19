@@ -22,14 +22,10 @@ const CommunitySlider = ({testimonials}) => {
             spaceBetween: 15,
           },
           640: {
-            slidesPerView: 1,
-            spaceBetween: 15,
-          },
-          768: {
             slidesPerView: 2,
             spaceBetween: 15,
           },
-          1024: {
+          1280: {
             slidesPerView: 3,
             spaceBetween: 15,
           }
@@ -42,7 +38,7 @@ const CommunitySlider = ({testimonials}) => {
         const { image, name, message, descricao, link } = testimonial;
         return (
           <SwiperSlide key={idx}>
-            <div className='relative p-[10px] shadow my-[2%]'>
+            <div className='relative p-[10px] shadow-md my-[2%]'>
               {/* image */}
               <div className='mb-[10px]'>
                 <img src={image} alt='' className='rounded'/>

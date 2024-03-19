@@ -12,8 +12,8 @@ const Faq = () => {
   const [openAccordionId, setOpenAccordionId] = useState(null);
 
   return (
-    <section className='section pt-[140px] lg:pt-[100px] lb:pt-[280px] mb-[80px] lg:mb-0' id='faq'>
-      <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center lg:h-[1160px] lg:pt-6'>
+    <section className='section mt-[120px] lg:mt-[100px] lg:pb-0' id='faq'>
+      <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat lg:bg-auto-height bg-custom bg-center lg:h-[1100px] lg:pt-6 flex items-center flex-col'>
         {/* section title */}
         <div className='section-title-group justify-start lg:justify-center -space-x-4 lg:max-w-[540px] mx-auto px-4 lg:px-0'
           data-aos='fade-up'

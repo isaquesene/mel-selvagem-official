@@ -2,6 +2,7 @@ import React from 'react';
 
 // import data
 import { banner } from '../data';
+import { autoScroll } from '../tools';
  
 const Banner = () => {
   // estrutura banner
@@ -36,10 +37,9 @@ const Banner = () => {
             }
             </ul>
             {/* botão */}
-            <button className='btn btn-sm lg:btn-lg btn-secondary' data-aos='fade-down' data-aos-delay='700'>
-              <a href={link}/>
+            <a onClick={() => autoScroll('pricing', 0)} className='btn btn-sm lg:btn-lg btn-secondary max-w-[200px] cursor-pointer' data-aos='fade-down' data-aos-delay='700' target="_blank">
               {textBtn}
-            </button>
+            </a>
           </div>
           {/* imagem */}
           <div 

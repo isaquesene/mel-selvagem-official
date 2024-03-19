@@ -27,12 +27,12 @@ const App = () => {
     <div className='mx-auto bg-page overflow-hidden relative'>
       <Header />
       <Banner />
+      <Pricing />
       <About />
       {/*<Workouts />*/}
-      {/* <Pricing /> */}
-      <Community />
       <Faq />
-      <Join />
+      <Community />
+      {/* <Join /> */}
       <Footer />
       {/*<div className='h-[4000px]'></div>*/}
     </div>
