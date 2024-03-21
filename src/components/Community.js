@@ -10,11 +10,11 @@ const Community = () => {
   // destructure community data
   const { icon, title, testimonials } = community;
   return (
-    <section className='section relative pt-[140px] sm:mx-[20px] pb-0' id='community'>
-        <div className='flex lg:flex-row flex-col justify-around mx-4 sm:px[20px]'>
+    <section className='section relative pt-[140px]' id='community'>
+        <div className='container flex lg:flex-row flex-col justify-around mx-auto sm:px[20px]'>
           {/* section title */}
           <div className='section-title-group lg:min-w-[fit-content] px-4 lg:px-0 lg:ml-0 mx-auto lg:mx-12'
-            data-aos='fade-up'
+            data-aos='fade-left'
             data-aos-offset='200'
             data-aos-delay='200'
           >

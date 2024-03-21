@@ -8,7 +8,7 @@ import Nav from '../components/Nav';
 import NavMobile from '../components/NavMobile';
 
 //import icons
-import { Ri24HoursFill, RiCloseFill, RiMenu4Fill } from 'react-icons/ri';
+import { Ri24HoursFill, RiCloseFill, RiMenu4Fill, RiWindowLine } from 'react-icons/ri';
 
 const Header = () => {
   //header state
@@ -19,6 +19,7 @@ const Header = () => {
 
   //scroll evento
   useEffect(() => {
+    const height = document.getElementById('banner').getBoundingClientRect().height;
     window.addEventListener('scroll', () =>{
       window.scrollY > 80 ? setIsActive(true) : setIsActive(false);
     });

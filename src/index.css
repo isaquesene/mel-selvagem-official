@@ -71,4 +71,20 @@
   .active-acc{
     @apply min-h-[200px] lg:min-h-[160px] pb-[20px] lg:pb-[40px];
   }
+  .active-card{
+    hover:scale-105;
+  }
+
+  /* Personalização dos cards produtos */
+  .card:hover {
+    transform: scale(1.05);
+    @apply shadow-2xl;
+
+    .card-image img{
+      translate: scale(1.7);
+    }
+  }
+  .card, .card-image, .card-image img {
+    transition: all .3s ease;
+  }
 }

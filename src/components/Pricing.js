@@ -4,17 +4,16 @@ import React from 'react';
 import { pricing } from '../data';
 
 // import components
-import  PlanList from './PlanList'; 
+import ProductCards from './ProductCards';
 
 const Pricing = () => {
   //destructure pricing data
   const {icon, title, plans} = pricing;
   return (
-    <section className='section py-[120px]' id='pricing'>
+    <section className='section py-[120px] pb-0' id='pricing'>
       {/* section title */}
       <div className='section-title-group max-w-[540px] mx-auto px-4 lg:px-0' 
-          data-aos='fade-up'   
-          data-aos-offset='200'
+          data-aos='fade-right'
           data-aos-delay='200' 
       >
         <img src={icon} alt=''/>
@@ -23,7 +22,7 @@ const Pricing = () => {
         </h2>
       </div>
       {/* plan pricing */}
-      <PlanList plans={plans}/>
+      <ProductCards plans={plans}/>
     </section>
   );
 };

@@ -1,260 +1,259 @@
 // images
 //import Logo from '../src/assets/img/header/logo.svg';
-import Logo from '../src/assets/img/header/logoMel.png';
-import Manejo1 from '../src/assets/img/workouts/colheita.jpeg';
-import Resgate from '../src/assets/img/workouts/colheita2.jpeg';
-import Resgate2 from '../src/assets/img/workouts/resgate-2.jpeg';
-import Manejo2 from '../src/assets/img/workouts/manejo3.jpeg';
-import Manejo3 from '../src/assets/img/workouts/manejo4.jpeg';
-import Manejo4 from '../src/assets/img/workouts/manejo5.jpeg';
-import Manejo5 from '../src/assets/img/workouts/manejo6.jpeg';
-import Manejo6 from '../src/assets/img/workouts/manejo7.jpeg';
-import Manejo7 from '../src/assets/img/workouts/manejo8.jpeg';
-import Manejo8 from '../src/assets/img/workouts/frascos2.png';
+import Logo from "../src/assets/img/header/logoMel.png";
+import Manejo1 from "../src/assets/img/workouts/colheita.jpeg";
+import Resgate from "../src/assets/img/workouts/colheita2.jpeg";
+import Resgate2 from "../src/assets/img/workouts/resgate-2.jpeg";
+import Manejo2 from "../src/assets/img/workouts/manejo3.jpeg";
+import Manejo3 from "../src/assets/img/workouts/manejo4.jpeg";
+import Manejo4 from "../src/assets/img/workouts/manejo5.jpeg";
+import Manejo5 from "../src/assets/img/workouts/manejo6.jpeg";
+import Manejo6 from "../src/assets/img/workouts/manejo7.jpeg";
+import Manejo7 from "../src/assets/img/workouts/manejo8.jpeg";
+import Manejo8 from "../src/assets/img/workouts/frascos2.png";
 // images
-import CommunityImg1 from '../src/assets/img/community/saladamel.jpeg';
-import CommunityImg2 from '../src/assets/img/community/17-bolacha-de-mel.jpg';
-import CommunityImg3 from '../src/assets/img/community/Costelinha-de-porco-assada-com-mel.jpg';
-import CommunityImg4 from '../src/assets/img/community/macamel.jpeg.jpg';
-import JoinImg from '../src/assets/img/join/frascos2.png';
-import JoinImgPix from '../src/assets/img/join/pix.png';
+import CommunityImg1 from "../src/assets/img/community/saladamel.jpeg";
+import CommunityImg2 from "../src/assets/img/community/17-bolacha-de-mel.jpg";
+import CommunityImg3 from "../src/assets/img/community/Costelinha-de-porco-assada-com-mel.jpg";
+import CommunityImg4 from "../src/assets/img/community/macamel.jpeg.jpg";
+import JoinImg from "../src/assets/img/join/frascos2.png";
+import JoinImgPix from "../src/assets/img/join/pix.png";
+//product images
+import Mel1 from "../src/assets/img/pricing/Produto_1.png";
+import Mel2 from "../src/assets/img/pricing/Produto_2.jpg";
+
 // icons
-import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
-import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
-import PriceIcn from '../src/assets/img/pricing/icons/price.svg';
-import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
-import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
+import UsersIcn from "../src/assets/img/about/icons/users-icn.svg";
+import CalendarIcn from "../src/assets/img/workouts/icons/calendar.svg";
+import PriceIcn from "../src/assets/img/pricing/icons/price.svg";
+import CommunityIcn from "../src/assets/img/community/icons/community-icn.svg";
+import QuestionMarkIcn from "../src/assets/img/faq/icons/question-mark.svg";
 
 export const header = {
   logo: Logo,
-  btnLoginText: 'Fale Conosco',
-  link:'https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?',
-  btnSignupText: 'Sign Up',
+  btnLoginText: "Fale Conosco",
+  link: "https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?",
+  btnSignupText: "Sign Up",
 };
 
 export const nav = [
-  { name: 'Home', href: 'banner'},
-  { name: 'Produto', href: 'pricing' },
-  { name: 'Sobre nós', href: 'about' },
-  { name: 'Perguntas', href: 'faq' },
-  { name: 'Nosso Blog', href: 'banner' },
-  { name: 'Receitas', href: 'community' },
+  { name: "Home", href: "banner" },
+  { name: "Produto", href: "pricing" },
+  { name: "Sobre nós", href: "about" },
+  { name: "Perguntas", href: "faq" },
+  { name: "Nosso Blog", href: "banner" },
+  { name: "Receitas", href: "community" },
 ];
 
 export const banner = {
-  titlePart1: 'Do produtor',
-  titlePart2: 'direto para a sua mesa',
-  subtitle:
-    ' Mel puro, natural e saudável',
-  textBtn: 'Garanta aqui',
-  link:'https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?',
-  img: '',
+  titlePart1: "Do produtor",
+  titlePart2: "direto para a sua mesa",
+  subtitle: " Mel puro, natural e saudável",
+  textBtn: "Garanta aqui",
+  link: "https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?",
+  img: "",
   social_media: [
     {
-      logo: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0iI2IyODQwNSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg1LjMzMzMzLDUuMzMzMzMpIj48cGF0aCBkPSJNMTEuNSw2Yy0zLjAxOTc3LDAgLTUuNSwyLjQ4MDIzIC01LjUsNS41djIuNTY0NDVjLTAuMDA3NjUsMC41NDA5NSAwLjI3NjU2LDEuMDQ0MTIgMC43NDM4MSwxLjMxNjgzYzAuNDY3MjUsMC4yNzI3MSAxLjA0NTE0LDAuMjcyNzEgMS41MTIzOCwwYzAuNDY3MjUsLTAuMjcyNzEgMC43NTE0NiwtMC43NzU4OCAwLjc0MzgxLC0xLjMxNjgzdi0yLjU2NDQ1YzAsLTEuMzk4MjMgMS4xMDE3NywtMi41IDIuNSwtMi41aDI1YzEuMzk4MjMsMCAyLjUsMS4xMDE3NyAyLjUsMi41djE0LjQ3ODUyYy0wLjAwNzY1LDAuNTQwOTUgMC4yNzY1NiwxLjA0NDEyIDAuNzQzODEsMS4zMTY4M2MwLjQ2NzI1LDAuMjcyNzEgMS4wNDUxNCwwLjI3MjcxIDEuNTEyMzgsMGMwLjQ2NzI1LC0wLjI3MjcxIDAuNzUxNDYsLTAuNzc1ODggMC43NDM4MSwtMS4zMTY4M3YtMTQuNDc4NTJjMCwtMy4wMTk3NyAtMi40ODAyMywtNS41IC01LjUsLTUuNXpNMzAuODMzOTgsMTNjLTQuNDA3LDAgLTYuODMzOTgsMi42MTYxOSAtNi44MzM5OCw3LjM2NzE5djMuNjMyODFoLTRjLTAuNTUyLDAgLTEsMC40NDcgLTEsMXYzYzAsMC41NTMgMC40NDgsMSAxLDFoNHYxMGgtMTIuNWMtMS4zOTgyMywwIC0yLjUsLTEuMTAxNzcgLTIuNSwtMi41di0xNS42Njk5MmMwLjAwNTgyLC0wLjQwNTYyIC0wLjE1Mjg4LC0wLjc5NjMgLTAuNDM5OTEsLTEuMDgyOTZjLTAuMjg3MDMsLTAuMjg2NjYgLTAuNjc3OTIsLTAuNDQ0ODYgLTEuMDgzNTMsLTAuNDM4NTJjLTAuODI3NjYsMC4wMTI5MyAtMS40ODg0NCwwLjY5MzgxIC0xLjQ3NjU2LDEuNTIxNDh2MTUuNjY5OTJjMCwzLjAxOTc3IDIuNDgwMjMsNS41IDUuNSw1LjVoMjVjMy4wMTk3NywwIDUuNSwtMi40ODAyMyA1LjUsLTUuNXYtNC45MDQzYzAuMDA3NjUsLTAuNTQwOTUgLTAuMjc2NTYsLTEuMDQ0MTIgLTAuNzQzODEsLTEuMzE2ODNjLTAuNDY3MjUsLTAuMjcyNzEgLTEuMDQ1MTQsLTAuMjcyNzEgLTEuNTEyMzgsMGMtMC40NjcyNSwwLjI3MjcxIC0wLjc1MTQ2LDAuNzc1ODggLTAuNzQzODEsMS4zMTY4M3Y0LjkwNDNjMCwxLjM5ODIzIC0xLjEwMTc3LDIuNSAtMi41LDIuNWgtNi41di0xMGgzLjYyNWMwLjUwNCwwIDAuOTMwMTksLTAuMzc2OTUgMC45OTIxOSwtMC44NzY5NWwwLjM3NSwtM2MwLjAzNiwtMC4yODQgLTAuMDU0MTQsLTAuNTY5MTYgLTAuMjQ0MTQsLTAuNzg1MTZjLTAuMTg5LC0wLjIxNSAtMC40NjEwNSwtMC4zMzc4OSAtMC43NDgwNSwtMC4zMzc4OWgtNHYtMy41YzAsLTEuMTAzIDAuODk3LC0yIDIsLTJoMmMwLjU1MiwwIDEsLTAuNDQ3IDEsLTF2LTMuMzc1YzAsLTAuNTE4IC0wLjM5NTE2LC0wLjk1MDA5IC0wLjkxMDE2LC0wLjk5NjA5Yy0wLjA1OSwtMC4wMDUgLTEuNDY5ODYsLTAuMTI4OTEgLTMuMjU1ODYsLTAuMTI4OTF6Ij48L3BhdGg+PC9nPjwvZz4KPC9zdmc+',
-      alt: 'Facebook',
-      link: 'https://www.facebook.com/profile.php?id=100095289678906',
+      logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0iI2IyODQwNSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg1LjMzMzMzLDUuMzMzMzMpIj48cGF0aCBkPSJNMTEuNSw2Yy0zLjAxOTc3LDAgLTUuNSwyLjQ4MDIzIC01LjUsNS41djIuNTY0NDVjLTAuMDA3NjUsMC41NDA5NSAwLjI3NjU2LDEuMDQ0MTIgMC43NDM4MSwxLjMxNjgzYzAuNDY3MjUsMC4yNzI3MSAxLjA0NTE0LDAuMjcyNzEgMS41MTIzOCwwYzAuNDY3MjUsLTAuMjcyNzEgMC43NTE0NiwtMC43NzU4OCAwLjc0MzgxLC0xLjMxNjgzdi0yLjU2NDQ1YzAsLTEuMzk4MjMgMS4xMDE3NywtMi41IDIuNSwtMi41aDI1YzEuMzk4MjMsMCAyLjUsMS4xMDE3NyAyLjUsMi41djE0LjQ3ODUyYy0wLjAwNzY1LDAuNTQwOTUgMC4yNzY1NiwxLjA0NDEyIDAuNzQzODEsMS4zMTY4M2MwLjQ2NzI1LDAuMjcyNzEgMS4wNDUxNCwwLjI3MjcxIDEuNTEyMzgsMGMwLjQ2NzI1LC0wLjI3MjcxIDAuNzUxNDYsLTAuNzc1ODggMC43NDM4MSwtMS4zMTY4M3YtMTQuNDc4NTJjMCwtMy4wMTk3NyAtMi40ODAyMywtNS41IC01LjUsLTUuNXpNMzAuODMzOTgsMTNjLTQuNDA3LDAgLTYuODMzOTgsMi42MTYxOSAtNi44MzM5OCw3LjM2NzE5djMuNjMyODFoLTRjLTAuNTUyLDAgLTEsMC40NDcgLTEsMXYzYzAsMC41NTMgMC40NDgsMSAxLDFoNHYxMGgtMTIuNWMtMS4zOTgyMywwIC0yLjUsLTEuMTAxNzcgLTIuNSwtMi41di0xNS42Njk5MmMwLjAwNTgyLC0wLjQwNTYyIC0wLjE1Mjg4LC0wLjc5NjMgLTAuNDM5OTEsLTEuMDgyOTZjLTAuMjg3MDMsLTAuMjg2NjYgLTAuNjc3OTIsLTAuNDQ0ODYgLTEuMDgzNTMsLTAuNDM4NTJjLTAuODI3NjYsMC4wMTI5MyAtMS40ODg0NCwwLjY5MzgxIC0xLjQ3NjU2LDEuNTIxNDh2MTUuNjY5OTJjMCwzLjAxOTc3IDIuNDgwMjMsNS41IDUuNSw1LjVoMjVjMy4wMTk3NywwIDUuNSwtMi40ODAyMyA1LjUsLTUuNXYtNC45MDQzYzAuMDA3NjUsLTAuNTQwOTUgLTAuMjc2NTYsLTEuMDQ0MTIgLTAuNzQzODEsLTEuMzE2ODNjLTAuNDY3MjUsLTAuMjcyNzEgLTEuMDQ1MTQsLTAuMjcyNzEgLTEuNTEyMzgsMGMtMC40NjcyNSwwLjI3MjcxIC0wLjc1MTQ2LDAuNzc1ODggLTAuNzQzODEsMS4zMTY4M3Y0LjkwNDNjMCwxLjM5ODIzIC0xLjEwMTc3LDIuNSAtMi41LDIuNWgtNi41di0xMGgzLjYyNWMwLjUwNCwwIDAuOTMwMTksLTAuMzc2OTUgMC45OTIxOSwtMC44NzY5NWwwLjM3NSwtM2MwLjAzNiwtMC4yODQgLTAuMDU0MTQsLTAuNTY5MTYgLTAuMjQ0MTQsLTAuNzg1MTZjLTAuMTg5LC0wLjIxNSAtMC40NjEwNSwtMC4zMzc4OSAtMC43NDgwNSwtMC4zMzc4OWgtNHYtMy41YzAsLTEuMTAzIDAuODk3LC0yIDIsLTJoMmMwLjU1MiwwIDEsLTAuNDQ3IDEsLTF2LTMuMzc1YzAsLTAuNTE4IC0wLjM5NTE2LC0wLjk1MDA5IC0wLjkxMDE2LC0wLjk5NjA5Yy0wLjA1OSwtMC4wMDUgLTEuNDY5ODYsLTAuMTI4OTEgLTMuMjU1ODYsLTAuMTI4OTF6Ij48L3BhdGg+PC9nPjwvZz4KPC9zdmc+",
+      alt: "Facebook",
+      link: "https://www.facebook.com/profile.php?id=100095289678906",
     },
     {
-      logo: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9Im5vbmUiIHN0cm9rZS1saW5lam9pbj0ibm9uZSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48ZyB0cmFuc2Zvcm09InNjYWxlKDUuMzMzMzMsNS4zMzMzMykiPjxwYXRoIGQ9Ik00MS41LDIxLjF2LTQuNmMwLC01LjUgLTQuNSwtMTAgLTEwLC0xMGgtMTVjLTUuNSwwIC0xMCw0LjUgLTEwLDEwdjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2IyODQwNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD48cGF0aCBkPSJNNi41LDI1LjZ2NS45YzAsNS41IDQuNSwxMCAxMCwxMGgxNWM1LjUsMCAxMCwtNC41IDEwLC0xMHYtNC42IiBmaWxsPSJub25lIiBzdHJva2U9IiNiMjg0MDUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+PHBhdGggZD0iTTI0LDE1LjVjLTQuNywwIC04LjUsMy44IC04LjUsOC41YzAsNC43IDMuOCw4LjUgOC41LDguNWM0LjcsMCA4LjUsLTMuOCA4LjUsLTguNWMwLC00LjcgLTMuOCwtOC41IC04LjUsLTguNXoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2IyODQwNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciI+PC9wYXRoPjxwYXRoIGQ9Ik0zNCwxMmMtMS4xLDAgLTIsMC45IC0yLDJjMCwxLjEgMC45LDIgMiwyYzEuMSwwIDIsLTAuOSAyLC0yYzAsLTEuMSAtMC45LC0yIC0yLC0yeiIgZmlsbD0iI2IyODQwNSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIj48L3BhdGg+PC9nPjwvZz4KPC9zdmc+',
-      alt: 'Instagram',
-      link: 'https://www.instagram.com/apiariomelselvagem?igsh=MTc4czRrZDh3c3o4aw==',
+      logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9Im5vbmUiIHN0cm9rZS1saW5lam9pbj0ibm9uZSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48ZyB0cmFuc2Zvcm09InNjYWxlKDUuMzMzMzMsNS4zMzMzMykiPjxwYXRoIGQ9Ik00MS41LDIxLjF2LTQuNmMwLC01LjUgLTQuNSwtMTAgLTEwLC0xMGgtMTVjLTUuNSwwIC0xMCw0LjUgLTEwLDEwdjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2IyODQwNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD48cGF0aCBkPSJNNi41LDI1LjZ2NS45YzAsNS41IDQuNSwxMCAxMCwxMGgxNWM1LjUsMCAxMCwtNC41IDEwLC0xMHYtNC42IiBmaWxsPSJub25lIiBzdHJva2U9IiNiMjg0MDUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+PHBhdGggZD0iTTI0LDE1LjVjLTQuNywwIC04LjUsMy44IC04LjUsOC41YzAsNC43IDMuOCw4LjUgOC41LDguNWM0LjcsMCA4LjUsLTMuOCA4LjUsLTguNWMwLC00LjcgLTMuOCwtOC41IC04LjUsLTguNXoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2IyODQwNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciI+PC9wYXRoPjxwYXRoIGQ9Ik0zNCwxMmMtMS4xLDAgLTIsMC45IC0yLDJjMCwxLjEgMC45LDIgMiwyYzEuMSwwIDIsLTAuOSAyLC0yYzAsLTEuMSAtMC45LC0yIC0yLC0yeiIgZmlsbD0iI2IyODQwNSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIj48L3BhdGg+PC9nPjwvZz4KPC9zdmc+",
+      alt: "Instagram",
+      link: "https://www.instagram.com/apiariomelselvagem?igsh=MTc4czRrZDh3c3o4aw==",
     },
     {
-      logo: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0iI2IyODQwNSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg1LjMzMzMzLDUuMzMzMzMpIj48cGF0aCBkPSJNMjQsMy45OTgwNWMtMTEuMDI3NzEsMCAtMjAsOC45NzIyOSAtMjAsMjBjMCwwLjc1NTcxIDAuMDQyODUsMS41MDMyNiAwLjEyNSwyLjIzODI4YzAuMDQ1NTgsMC41NDQwNyAwLjM4MzE1LDEuMDIwNDEgMC44ODEzNywxLjI0MzcxYzAuNDk4MjIsMC4yMjMzIDEuMDc4NDIsMC4xNTgyOCAxLjUxNDg2LC0wLjE2OTc1YzAuNDM2NDQsLTAuMzI4MDMgMC42NjAyMSwtMC44NjcyOCAwLjU4NDIzLC0xLjQwNzk0Yy0wLjA2OTg1LC0wLjYyNDk4IC0wLjEwNTQ3LC0xLjI2MDAxIC0wLjEwNTQ3LC0xLjkwNDNjMCwtOS40MDYyOSA3LjU5MzcxLC0xNyAxNywtMTdjNi4yNzYxNSwwIDExLjczODkzLDMuMzkwMDcgMTQuNjg3NSw4LjQzMzU5YzAuMjY0ODcsMC40NzM3OSAwLjc2NTAyLDAuNzY3NTUgMS4zMDc4MiwwLjc2ODEzYzAuNTQyOCwwLjAwMDU4IDEuMDQzNTgsLTAuMjkyMTEgMS4zMDk0NiwtMC43NjUzM2MwLjI2NTg4LC0wLjQ3MzIzIDAuMjU1MzksLTEuMDUzMTcgLTAuMDI3NDQsLTEuNTE2NDdjLTMuNDY5NDMsLTUuOTM0NDcgLTkuOTE5NDksLTkuOTE5OTIgLTE3LjI3NzM0LC05LjkxOTkyek0xNy4yNDAyMywxNWMtMC4zMTksMCAtMC44MzQ0NCwwLjExOTY2IC0xLjI3MzQ0LDAuNTk3NjZjLTAuNDM4LDAuNDc2IC0xLjY3MTg3LDEuNjMwNDcgLTEuNjcxODcsMy45ODA0N2MwLDIuMzUgMS43MTAyMiw0LjYxOTQ1IDEuOTQ5MjIsNC45Mzk0NWMwLjIzOCwwLjMxNyAzLjMwMzIsNS4yOTQ5OCA4LjE1ODIsNy4yMDg5OGM0LjAzNCwxLjU5IDQuODU0NDcsMS4yNzMzNiA1LjczMDQ3LDEuMTkzMzZjMC44NzYsLTAuMDc4IDIuODI2NjEsLTEuMTUzNTMgMy4yMjQ2MSwtMi4yNjk1M2MwLjM5OCwtMS4xMTYgMC4zOTgyNSwtMi4wNzA1OCAwLjI4MTI1LC0yLjI2NzU4Yy0wLjExOSwtMC4xOTkgLTAuNDM4MDIsLTAuMzE5NTkgLTAuOTE2MDIsLTAuNTU4NTljLTAuNDc3LC0wLjIzOSAtMi44MjM3MiwtMS4zOTM3MyAtMy4yNjE3MiwtMS41NTI3M2MtMC40MzgsLTAuMTU5IC0wLjc1ODE3LC0wLjIzOTcyIC0xLjA3NjE3LDAuMjM4MjhjLTAuMzE4LDAuNDc4IC0xLjIzMjcyLDEuNTUzMDkgLTEuNTExNzIsMS44NzEwOWMtMC4yNzksMC4zMiAtMC41NTcxNiwwLjM2MDA5IC0xLjAzNTE2LDAuMTIxMDljLTAuNDc5LC0wLjI0MSAtMi4wMTU4LC0wLjc0NDA5IC0zLjg0MTgsLTIuMzcxMDljLTEuNDIsLTEuMjY1IC0yLjM3NTMsLTIuODI4NjQgLTIuNjU0MywtMy4zMDY2NGMtMC4yNzgsLTAuNDc2IC0wLjAzMDAyLC0wLjczNzYxIDAuMjA4OTgsLTAuOTc0NjFjMC4yMTUsLTAuMjE0IDAuNDc3OCwtMC41NTY5NCAwLjcxNjgsLTAuODM1OTRjMC4yMzcsLTAuMjc5IDAuMzE1NjEsLTAuNDc2OTIgMC40NzQ2MSwtMC43OTQ5MmMwLjE1OSwtMC4zMTcgMC4wNzk5NCwtMC41OTY5NCAtMC4wMzkwNiwtMC44MzU5NGMtMC4xMTksLTAuMjM5IC0xLjA0NzY2LC0yLjYwMTg3IC0xLjQ3MjY2LC0zLjU0Njg3Yy0wLjM1NywtMC43OTQgLTAuNzMzMjIsLTAuODExMjIgLTEuMDc0MjIsLTAuODI0MjJjLTAuMjc4LC0wLjAxMSAtMC41OTgwMiwtMC4wMTE3MiAtMC45MTYwMiwtMC4wMTE3MnpNNDIuNDc4NTIsMjEuMjA4OThjLTAuNDIzNDksLTAuMDA2MzkgLTAuODI5OTUsMC4xNjY1MyAtMS4xMTkwMywwLjQ3NjA3Yy0wLjI4OTA4LDAuMzA5NTQgLTAuNDMzODQsMC43MjY4NiAtMC4zOTg1NSwxLjE0ODkzYzAuMDI2NDksMC4zODI4IDAuMDM5MDYsMC43Njk4NSAwLjAzOTA2LDEuMTY0MDZjMCw5LjQwNjI5IC03LjU5MzcxLDE3IC0xNywxN2MtMy4wMDE1OCwwIC01LjgwOTQsLTAuNzgwNTIgLTguMjU3ODEsLTIuMTQ0NTNjLTAuMzQ1MTIsLTAuMTkyMzUgLTAuNzUyMiwtMC4yNDA3OCAtMS4xMzI4MSwtMC4xMzQ3N2wtNy4zODY3MiwyLjA2MDU1bDIuMDYyNSwtNy4zODI4MWMwLjE0NDI0LC0wLjUxNjQxIDAuMDAxOTgsLTEuMDcwNTQgLTAuMzczMTgsLTEuNDUzNjFjLTAuMzc1MTcsLTAuMzgzMDYgLTAuOTI2MjIsLTAuNTM2ODMgLTEuNDQ1NTIsLTAuNDAzMzhjLTAuNTE5MywwLjEzMzQ2IC0wLjkyNzkzLDAuNTMzODYgLTEuMDcxOTIsMS4wNTAzNGwtMi4zMDA3OCw4LjIzNjMzYy0wLjUwNDk1LDEuODAzNCAxLjI3ODE4LDMuNTg2NDQgMy4wODIwMywzLjA4MjAzbDcuNzY3NTgsLTIuMTY3OTdjMi43MjczOCwxLjM5NjA4IDUuNzg0MzksMi4yNTc4MSA5LjA1NjY0LDIuMjU3ODFjMTEuMDI3NzEsMCAyMCwtOC45NzIyOSAyMCwtMjBjMCwtMC40NTk3OSAtMC4wMTUzNywtMC45MTU4OSAtMC4wNDY4NywtMS4zNzEwOWMtMC4wNDMwNSwtMC43ODY0OSAtMC42ODcwNCwtMS40MDU3NCAtMS40NzQ2MSwtMS40MTc5N3oiPjwvcGF0aD48L2c+PC9nPgo8L3N2Zz4=',
-      alt: 'Whatsapp',
-      link: 'https://api.whatsapp.com/send?phone=555481420633',
-    }
-  ]
+      logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0iI2IyODQwNSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg1LjMzMzMzLDUuMzMzMzMpIj48cGF0aCBkPSJNMjQsMy45OTgwNWMtMTEuMDI3NzEsMCAtMjAsOC45NzIyOSAtMjAsMjBjMCwwLjc1NTcxIDAuMDQyODUsMS41MDMyNiAwLjEyNSwyLjIzODI4YzAuMDQ1NTgsMC41NDQwNyAwLjM4MzE1LDEuMDIwNDEgMC44ODEzNywxLjI0MzcxYzAuNDk4MjIsMC4yMjMzIDEuMDc4NDIsMC4xNTgyOCAxLjUxNDg2LC0wLjE2OTc1YzAuNDM2NDQsLTAuMzI4MDMgMC42NjAyMSwtMC44NjcyOCAwLjU4NDIzLC0xLjQwNzk0Yy0wLjA2OTg1LC0wLjYyNDk4IC0wLjEwNTQ3LC0xLjI2MDAxIC0wLjEwNTQ3LC0xLjkwNDNjMCwtOS40MDYyOSA3LjU5MzcxLC0xNyAxNywtMTdjNi4yNzYxNSwwIDExLjczODkzLDMuMzkwMDcgMTQuNjg3NSw4LjQzMzU5YzAuMjY0ODcsMC40NzM3OSAwLjc2NTAyLDAuNzY3NTUgMS4zMDc4MiwwLjc2ODEzYzAuNTQyOCwwLjAwMDU4IDEuMDQzNTgsLTAuMjkyMTEgMS4zMDk0NiwtMC43NjUzM2MwLjI2NTg4LC0wLjQ3MzIzIDAuMjU1MzksLTEuMDUzMTcgLTAuMDI3NDQsLTEuNTE2NDdjLTMuNDY5NDMsLTUuOTM0NDcgLTkuOTE5NDksLTkuOTE5OTIgLTE3LjI3NzM0LC05LjkxOTkyek0xNy4yNDAyMywxNWMtMC4zMTksMCAtMC44MzQ0NCwwLjExOTY2IC0xLjI3MzQ0LDAuNTk3NjZjLTAuNDM4LDAuNDc2IC0xLjY3MTg3LDEuNjMwNDcgLTEuNjcxODcsMy45ODA0N2MwLDIuMzUgMS43MTAyMiw0LjYxOTQ1IDEuOTQ5MjIsNC45Mzk0NWMwLjIzOCwwLjMxNyAzLjMwMzIsNS4yOTQ5OCA4LjE1ODIsNy4yMDg5OGM0LjAzNCwxLjU5IDQuODU0NDcsMS4yNzMzNiA1LjczMDQ3LDEuMTkzMzZjMC44NzYsLTAuMDc4IDIuODI2NjEsLTEuMTUzNTMgMy4yMjQ2MSwtMi4yNjk1M2MwLjM5OCwtMS4xMTYgMC4zOTgyNSwtMi4wNzA1OCAwLjI4MTI1LC0yLjI2NzU4Yy0wLjExOSwtMC4xOTkgLTAuNDM4MDIsLTAuMzE5NTkgLTAuOTE2MDIsLTAuNTU4NTljLTAuNDc3LC0wLjIzOSAtMi44MjM3MiwtMS4zOTM3MyAtMy4yNjE3MiwtMS41NTI3M2MtMC40MzgsLTAuMTU5IC0wLjc1ODE3LC0wLjIzOTcyIC0xLjA3NjE3LDAuMjM4MjhjLTAuMzE4LDAuNDc4IC0xLjIzMjcyLDEuNTUzMDkgLTEuNTExNzIsMS44NzEwOWMtMC4yNzksMC4zMiAtMC41NTcxNiwwLjM2MDA5IC0xLjAzNTE2LDAuMTIxMDljLTAuNDc5LC0wLjI0MSAtMi4wMTU4LC0wLjc0NDA5IC0zLjg0MTgsLTIuMzcxMDljLTEuNDIsLTEuMjY1IC0yLjM3NTMsLTIuODI4NjQgLTIuNjU0MywtMy4zMDY2NGMtMC4yNzgsLTAuNDc2IC0wLjAzMDAyLC0wLjczNzYxIDAuMjA4OTgsLTAuOTc0NjFjMC4yMTUsLTAuMjE0IDAuNDc3OCwtMC41NTY5NCAwLjcxNjgsLTAuODM1OTRjMC4yMzcsLTAuMjc5IDAuMzE1NjEsLTAuNDc2OTIgMC40NzQ2MSwtMC43OTQ5MmMwLjE1OSwtMC4zMTcgMC4wNzk5NCwtMC41OTY5NCAtMC4wMzkwNiwtMC44MzU5NGMtMC4xMTksLTAuMjM5IC0xLjA0NzY2LC0yLjYwMTg3IC0xLjQ3MjY2LC0zLjU0Njg3Yy0wLjM1NywtMC43OTQgLTAuNzMzMjIsLTAuODExMjIgLTEuMDc0MjIsLTAuODI0MjJjLTAuMjc4LC0wLjAxMSAtMC41OTgwMiwtMC4wMTE3MiAtMC45MTYwMiwtMC4wMTE3MnpNNDIuNDc4NTIsMjEuMjA4OThjLTAuNDIzNDksLTAuMDA2MzkgLTAuODI5OTUsMC4xNjY1MyAtMS4xMTkwMywwLjQ3NjA3Yy0wLjI4OTA4LDAuMzA5NTQgLTAuNDMzODQsMC43MjY4NiAtMC4zOTg1NSwxLjE0ODkzYzAuMDI2NDksMC4zODI4IDAuMDM5MDYsMC43Njk4NSAwLjAzOTA2LDEuMTY0MDZjMCw5LjQwNjI5IC03LjU5MzcxLDE3IC0xNywxN2MtMy4wMDE1OCwwIC01LjgwOTQsLTAuNzgwNTIgLTguMjU3ODEsLTIuMTQ0NTNjLTAuMzQ1MTIsLTAuMTkyMzUgLTAuNzUyMiwtMC4yNDA3OCAtMS4xMzI4MSwtMC4xMzQ3N2wtNy4zODY3MiwyLjA2MDU1bDIuMDYyNSwtNy4zODI4MWMwLjE0NDI0LC0wLjUxNjQxIDAuMDAxOTgsLTEuMDcwNTQgLTAuMzczMTgsLTEuNDUzNjFjLTAuMzc1MTcsLTAuMzgzMDYgLTAuOTI2MjIsLTAuNTM2ODMgLTEuNDQ1NTIsLTAuNDAzMzhjLTAuNTE5MywwLjEzMzQ2IC0wLjkyNzkzLDAuNTMzODYgLTEuMDcxOTIsMS4wNTAzNGwtMi4zMDA3OCw4LjIzNjMzYy0wLjUwNDk1LDEuODAzNCAxLjI3ODE4LDMuNTg2NDQgMy4wODIwMywzLjA4MjAzbDcuNzY3NTgsLTIuMTY3OTdjMi43MjczOCwxLjM5NjA4IDUuNzg0MzksMi4yNTc4MSA5LjA1NjY0LDIuMjU3ODFjMTEuMDI3NzEsMCAyMCwtOC45NzIyOSAyMCwtMjBjMCwtMC40NTk3OSAtMC4wMTUzNywtMC45MTU4OSAtMC4wNDY4NywtMS4zNzEwOWMtMC4wNDMwNSwtMC43ODY0OSAtMC42ODcwNCwtMS40MDU3NCAtMS40NzQ2MSwtMS40MTc5N3oiPjwvcGF0aD48L2c+PC9nPgo8L3N2Zz4=",
+      alt: "Whatsapp",
+      link: "https://api.whatsapp.com/send?phone=555481420633",
+    },
+  ],
 };
 
 export const about = {
   icon: UsersIcn,
-  title: 'Sobre nosso ofício',
+  title: "Sobre nosso ofício",
   subtitle1:
-    ' <b>Nós, apicultores,</b> acreditamos que criar abelhas é a nossa nossa contribuição com o universo e um compromisso que ultrapassa a produção de mel. Se é verdade que somos o que comemos, produzir um alimento que gera <b>saúde e bem estar</b> faz toda a diferença. ',
+    " <b>Nós, apicultores,</b> acreditamos que criar abelhas é a nossa nossa contribuição com o universo e um compromisso que ultrapassa a produção de mel. Se é verdade que somos o que comemos, produzir um alimento que gera <b>saúde e bem estar</b> faz toda a diferença. ",
   subtitle2:
-    ' por admirarmos este animal magnífico, de mais de 100 milhões de anos, socialmente organizado e fundamental agente de polinização, ao buscar pólen e nectar no vai e vem incansável de suas visitas às flores.',
+    " por admirarmos este animal magnífico, de mais de 100 milhões de anos, socialmente organizado e fundamental agente de polinização, ao buscar pólen e nectar no vai e vem incansável de suas visitas às flores.",
   subtitle21:
-    ' , proporcionamos às abelhas as melhores condições de conforto e proteção, para que façam o que melhor sabem, aproveitando a exuberante natureza da <b>Serra Gaúcha brasileira</b>, criadas livres e protegidas.',
+    " , proporcionamos às abelhas as melhores condições de conforto e proteção, para que façam o que melhor sabem, aproveitando a exuberante natureza da <b>Serra Gaúcha brasileira</b>, criadas livres e protegidas.",
   subtitle3:
-    '<b>Abelhas são seres únicos;</b> O ser humano, que ao longo do tempo, domesticou os mais diversos animais, mas jamais conseguiu fazer o mesmo com este singelo inseto. São seres livres e permaneceram <b>selvagens e indomáveis</b>. Aprendemos a lidar e aplicar as boas técnicas da apicultura, mas elas nunca abdicaram de seu instinto selvagem. Desta percepção, nasce o nosso nome, “O mel Selvagem”.',
-  
-  btnText: 'Garanta aqui',
-  link:'https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?',
+    "<b>Abelhas são seres únicos;</b> O ser humano, que ao longo do tempo, domesticou os mais diversos animais, mas jamais conseguiu fazer o mesmo com este singelo inseto. São seres livres e permaneceram <b>selvagens e indomáveis</b>. Aprendemos a lidar e aplicar as boas técnicas da apicultura, mas elas nunca abdicaram de seu instinto selvagem. Desta percepção, nasce o nosso nome, “O mel Selvagem”.",
+
+  btnText: "Garanta aqui",
+  link: "https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?",
 };
 
 export const workouts = {
   icon: CalendarIcn,
-  title: 'Manejos no Apiário',
+  title: "Manejos no Apiário",
   programs: [
     {
       image: Manejo1,
-      name: 'Manejo no Apiário',
+      name: "Manejo no Apiário",
     },
     {
       image: Resgate,
-      name: 'Resgate de enxame',
+      name: "Resgate de enxame",
     },
     {
       image: Resgate2,
-      name: 'Resgate de enxame',
+      name: "Resgate de enxame",
     },
     {
       image: Manejo2,
-      name: 'Colheita do mel',
+      name: "Colheita do mel",
     },
     {
       image: Manejo3,
-      name: 'Colheita do mel',
+      name: "Colheita do mel",
     },
     {
       image: Manejo4,
-      name: 'Colheita do mel',
+      name: "Colheita do mel",
     },
     {
       image: Manejo5,
-      name: 'Colheita do mel',
+      name: "Colheita do mel",
     },
     {
       image: Manejo6,
-      name: 'Colheita do mel',
+      name: "Colheita do mel",
     },
     {
       image: Manejo7,
-      name: 'Colheita do mel',
+      name: "Colheita do mel",
     },
     {
       image: Manejo8,
-      name: 'Nossa produção',
+      name: "Nossa produção",
     },
   ],
 };
 
 export const pricing = {
+  // CardType 1: Foto do card sem fundo
+  // CardType 2: Foto do card sem fundo
   icon: PriceIcn,
-  title: 'Nosso produto',
+  title: "Nosso produto",
   plans: [
     {
-      name: 'Basic',
-      price: '20',
+      cardType: 1,
+      name: "Mel 500ml",
+      price: "30",
+      image: Mel1,
+      id: "Mel-500ml",
+      tags: ["Mel", "500ml",],
       list: [
-        { name: 'unlimited gym access' },
-        { name: '1 training programs' },
-        { name: 'free fitness consultation' },
+        {
+          name: "Delicioso mel puro de 500ml",
+          name: "Perfeito para adoçar suas receitas favoritas ou saborear diretamente da colher.",
+        },
       ],
       delay: 600,
     },
     {
-      name: 'Premium',
-      price: '35',
+      cardType: 2,
+      name: "Mel 1L",
+      price: "60",
+      image: Mel2,
+      id: "Mel-1l",
+      tags: ["Mel", "1L"],
       list: [
-        { name: 'unlimited gym access' },
-        { name: '5 training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
+        {
+          name: "Delicioso mel puro de 1L",
+          name: "Agora ainda maior, para poder aproveitar ainda mais.",
+        },
       ],
       delay: 800,
-    },
-    {
-      name: 'Elite',
-      price: '49',
-      list: [
-        { name: 'unlimited gym access' },
-        { name: 'all training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
-        { name: '50% off drinks' },
-      ],
-      delay: 1000,
     },
   ],
 };
 
 export const community = {
   icon: CommunityIcn,
-  title: 'Receitas',
+  title: "Receitas",
   testimonials: [
     {
       image: CommunityImg1,
-      name: 'Molho de mel para salada',
+      name: "Molho de mel para salada",
       message:
-        '“Ingredientes: 1 colher de sopa de mel, 3 colheres de sopa de azeite e 2 colheres de sopa de mostarda.”',
-      descricao:
-        'Preparo: Misture todos os ingredientes.',
+        "“Ingredientes: 1 colher de sopa de mel, 3 colheres de sopa de azeite e 2 colheres de sopa de mostarda.”",
+      descricao: "Preparo: Misture todos os ingredientes.",
     },
     {
       image: CommunityImg2,
-      name: 'Bolachinha de Mel',
+      name: "Bolachinha de Mel",
       message:
-        '“Ingredientes: Farinha de trigo, mel, açúcar, ovos, canela,  noz moscada, cravo, casca de limão ralada, bicarbonato de sódio e chocolate em pó.”',
-      descricao:
-        '',
-      link: 'https://www.receiteria.com.br/receita/bolacha-de-mel/',
+        "“Ingredientes: Farinha de trigo, mel, açúcar, ovos, canela,  noz moscada, cravo, casca de limão ralada, bicarbonato de sódio e chocolate em pó.”",
+      descricao: "",
+      link: "https://www.receiteria.com.br/receita/bolacha-de-mel/",
     },
     {
       image: CommunityImg3,
-      name: 'Costelinha de porco com mel e laranja',
+      name: "Costelinha de porco com mel e laranja",
       message:
-        '“Ingredientes: mel, laranja, shoyou, sal, mostarda, colorífico, pimenta do reino, cebola, alho e costelinha de porco.”',
-      descricao:
-        '',
-      link: 'https://panelaterapia.com/costelinha-com-laranja-e-me/',
+        "“Ingredientes: mel, laranja, shoyou, sal, mostarda, colorífico, pimenta do reino, cebola, alho e costelinha de porco.”",
+      descricao: "",
+      link: "https://panelaterapia.com/costelinha-com-laranja-e-me/",
     },
   ],
 };
 
 export const faq = {
   icon: QuestionMarkIcn,
-  title: 'Curiosidades',
+  title: "Curiosidades",
   accordions: [
     {
-      question: 'Por que usar mel no meu dia a dia?',
+      question: "Por que usar mel no meu dia a dia?",
       answer:
-      '• Nós aprendemos com nossas mães quando éramos crianças a usar o mel como remédio, em caso de dor de garganta ou tosse. De fato, o mel é muito bom para isso, pois é um cicatrizante e bactericida. Mas ficar apenas nisso é utilizar pouco deste poderoso alimento. Por exemplo, como o mel é um alimento sequestrante de radicais livres, retarda o envelhecimento precoce. ' + 
-      'Também, como nosso organismo não precisa digeri-lo para que circule em nossa corrente sanguínea, nos fornece energia de forma imediata. \nAlém disso, será um excelente substituto para adoçar bebidas como café, sucos ou chás. Enfim, convidamos você a degustar e conhecer este alimento orgânico e milenar.',
+        "• Nós aprendemos com nossas mães quando éramos crianças a usar o mel como remédio, em caso de dor de garganta ou tosse. De fato, o mel é muito bom para isso, pois é um cicatrizante e bactericida. Mas ficar apenas nisso é utilizar pouco deste poderoso alimento. Por exemplo, como o mel é um alimento sequestrante de radicais livres, retarda o envelhecimento precoce. " +
+        "Também, como nosso organismo não precisa digeri-lo para que circule em nossa corrente sanguínea, nos fornece energia de forma imediata. \nAlém disso, será um excelente substituto para adoçar bebidas como café, sucos ou chás. Enfim, convidamos você a degustar e conhecer este alimento orgânico e milenar.",
     },
     {
-      question: 'Por que o mel cristaliza?',
+      question: "Por que o mel cristaliza?",
       answer:
-        '• Ao contrário do que se pensa, todo mel puro e genuíno vai cristalizar ao longo do tempo ou mesmo em temperaturas mais baixas. O mel se constitui principalmente de duas substâncias, a glicose e a frutose. Com o passar do tempo e com o hidrogênio presente no ambiente, a combinação deste com a frutose produzirá o hidreto de frutose, o qual, em temperatura ambiente, é sólido, ou seja, gera a cristalização do mel. '+
-        'O mel cristalizado terá uma consistência de doce de leite e não há nenhum problema em consumi-lo assim; do ponto de vista nutricional, são idênticos. Saiba, inclusive, que em muitos países europeus, a consistência pastosa ou cristalizada é a forma preferida de se consumir mel, pois fica mais fácil de passá-lo no pão ou bolachas. Então, se o mel cristalizar, você pode usá-lo normalmente e é um ótimo indicador de sua autenticidade.',
+        "• Ao contrário do que se pensa, todo mel puro e genuíno vai cristalizar ao longo do tempo ou mesmo em temperaturas mais baixas. O mel se constitui principalmente de duas substâncias, a glicose e a frutose. Com o passar do tempo e com o hidrogênio presente no ambiente, a combinação deste com a frutose produzirá o hidreto de frutose, o qual, em temperatura ambiente, é sólido, ou seja, gera a cristalização do mel. " +
+        "O mel cristalizado terá uma consistência de doce de leite e não há nenhum problema em consumi-lo assim; do ponto de vista nutricional, são idênticos. Saiba, inclusive, que em muitos países europeus, a consistência pastosa ou cristalizada é a forma preferida de se consumir mel, pois fica mais fácil de passá-lo no pão ou bolachas. Então, se o mel cristalizar, você pode usá-lo normalmente e é um ótimo indicador de sua autenticidade.",
     },
     {
-      question: 'Se o mel cristalizar, como faço para retornar ao modo líquido?',
+      question:
+        "Se o mel cristalizar, como faço para retornar ao modo líquido?",
       answer:
-        '• Você pode colocá-lo em banho-maria. No entanto, não deixe que a temperatura da água ultrapasse 45°C, para evitar que o mel oxide e fique impróprio para o consumo.',
+        "• Você pode colocá-lo em banho-maria. No entanto, não deixe que a temperatura da água ultrapasse 45°C, para evitar que o mel oxide e fique impróprio para o consumo.",
     },
     {
-      question: 'Por que o mel tem cores diferentes?',
+      question: "Por que o mel tem cores diferentes?",
       answer:
-        '• Para produzirem o mel, as abelhas coletam néctar das flores que encontram na natureza. Espécies vegetais diferentes geram mel de diferentes colorações. A cor do mel será determinada pela quantidade de sais minerais que contém.',
+        "• Para produzirem o mel, as abelhas coletam néctar das flores que encontram na natureza. Espécies vegetais diferentes geram mel de diferentes colorações. A cor do mel será determinada pela quantidade de sais minerais que contém.",
     },
     {
-      question: 'Quanto tempo pode durar o mel?',
+      question: "Quanto tempo pode durar o mel?",
       answer:
-        '• Devido à sua baixa umidade e alto teor de açúcar, o mel possui uma longa vida útil quando armazenado corretamente. De fato, os arqueólogos já encontraram potes de mel em tumbas egípcias com mais de 3000 anos de idade, ainda comestíveis! Isso faz do mel um dos alimentos mais duráveis e estáveis naturalmente. Em conformidade com a legislação, você encontrará prazo de validade de dois anos para o consumo nas embalagens do produto comercializado no Brasil.',
+        "• Devido à sua baixa umidade e alto teor de açúcar, o mel possui uma longa vida útil quando armazenado corretamente. De fato, os arqueólogos já encontraram potes de mel em tumbas egípcias com mais de 3000 anos de idade, ainda comestíveis! Isso faz do mel um dos alimentos mais duráveis e estáveis naturalmente. Em conformidade com a legislação, você encontrará prazo de validade de dois anos para o consumo nas embalagens do produto comercializado no Brasil.",
     },
     {
-      question: 'Outras informações importantes sobre o mel?',
+      question: "Outras informações importantes sobre o mel?",
       answer:
-        '• O mel é um produto conhecido desde a antiguidade. Para se ter uma idéia, chineses criam abelhas há seis mil anos. Desde sempre foi utilizado para o tratamento de doenças respiratórias ou como cicatrizante. Hoje sabemos que o mel é um poderoso agente biológico, capaz de eliminar micro-organismos como bactérias, fungos, leveduras, vírus, etc. O principal agente bacteriano contido no mel é o peróxido de hidrogênio. '+
-        'Outra atividade antibiótica é o processo de osmose. Como o mel é muito viscoso, contém pouca água, cerca de 18%, e elimina bactérias por desidratação (bactérias têm 75% do corpo composto por água). Um fato é inquestionável, na base de nossa saúde, se encontra em uma dieta com alimentos de qualidade e o mel, será sempre um componente valioso em nossa alimentação.',
+        "• O mel é um produto conhecido desde a antiguidade. Para se ter uma idéia, chineses criam abelhas há seis mil anos. Desde sempre foi utilizado para o tratamento de doenças respiratórias ou como cicatrizante. Hoje sabemos que o mel é um poderoso agente biológico, capaz de eliminar micro-organismos como bactérias, fungos, leveduras, vírus, etc. O principal agente bacteriano contido no mel é o peróxido de hidrogênio. " +
+        "Outra atividade antibiótica é o processo de osmose. Como o mel é muito viscoso, contém pouca água, cerca de 18%, e elimina bactérias por desidratação (bactérias têm 75% do corpo composto por água). Um fato é inquestionável, na base de nossa saúde, se encontra em uma dieta com alimentos de qualidade e o mel, será sempre um componente valioso em nossa alimentação.",
     },
   ],
 };
 
 export const join = {
   image: JoinImg,
-  title: '30',
-  subtitle:
-    'Frasco de 500ml.',
-    pix: JoinImgPix,
-    btnText: 'Garanta aqui',
-    link:'https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?',
+  title: "30",
+  subtitle: "Frasco de 500ml.",
+  pix: JoinImgPix,
+  btnText: "Garanta aqui",
+  link: "https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?",
 };
 
 export const footer = {
   logo: Logo,
-  copyrightText: 'Todos Direitos Reservados. Mel Selvagem © ',
+  copyrightText: "Todos Direitos Reservados. Mel Selvagem © ",
 };
