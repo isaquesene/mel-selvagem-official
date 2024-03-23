@@ -12,7 +12,7 @@ const Faq = () => {
   const [openAccordionId, setOpenAccordionId] = useState(null);
 
   return (
-    <section className='section mt-[120px] lg:mt-[100px] lg:pb-0' id='faq'>
+    <section className='section pt-[120px] lg:mt-[100px] lg:pb-0' id='faq'>
       <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat lg:bg-auto-height bg-custom bg-center lg:h-[1100px] lg:pt-6 flex items-center flex-col'>
         {/* section title */}
         <div className='section-title-group justify-start lg:justify-center -space-x-4 lg:max-w-[540px] mx-auto px-4 lg:px-0'
@@ -27,7 +27,7 @@ const Faq = () => {
           </h2>
         </div>
         {/* accordion list */}
-        <div className='flex flex-col gap-y-4 px-4'
+        <div className='flex flex-col gap-y-4 px-4 '
           data-aos='fade-up'
           data-aos-offset='300'
           data-aos-delay='200'

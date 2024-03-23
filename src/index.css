@@ -78,13 +78,13 @@
   /* Personalização dos cards produtos */
   .card:hover {
     transform: scale(1.05);
-    @apply shadow-2xl;
-
-    .card-image img{
-      translate: scale(1.7);
+    @apply shadow-xl;
+    .buy-now-btn {
+      height: 50px;
+      margin-bottom: 10px;
     }
   }
-  .card, .card-image, .card-image img {
+  .card, .card-image, .card-image img, .buy-now-btn {
     transition: all .3s ease;
   }
 }

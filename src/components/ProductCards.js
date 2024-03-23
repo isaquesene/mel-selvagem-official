@@ -5,8 +5,11 @@ const ProductCards = ({plans}) => {
         <div className='container mx-auto' data-aos='fade-up' data-aos-dalay='200' data-aos-offset='200'>
             <div className='flex justify-center items-center flex-wrap'>
                 {plans.map((plan) => {
+                    var preco = plan.price.toString().split('.');
+                    console.log(preco);
                     return (
-                        <div className="max-w-sm rounded overflow-hidden shadow-md card border-2 m-2 p-3 h-[500px] w-[290px] lg:w-300 max-w-[200px] text-center box-border" id={plan.id}>
+                        <div className="max-w-sm rounded overflow-hidden shadow card border-2 m-2 p-3 min-h-[400px] w-[300px] min text-center box-border sm:mt-12" 
+                        id={plan.id}>
 
                                 <div className='relative w-full flex items-center overflow-hidden card-image'>
                                     <img className="relative w-full" src={plan.image} alt={plan.name}/>
@@ -17,7 +20,7 @@ const ProductCards = ({plans}) => {
                             {/*Hidden part*/}
                             <div className="p-2 pt-4">    
                                 <p className="h3 center">
-                                    <span className='text-primary-400 h5'>R$ </span>{plan.price}
+                                    <span className='text-primary-400 h5'>R$ </span>{preco[0]}<span className='h6'>{',' + (preco[1] === undefined ? '00' : preco[1])}</span>
                                 </p>
                                 <div className ="p-1 pt-4">
                                     {plan.tags.map((tag) => {
@@ -28,7 +31,12 @@ const ProductCards = ({plans}) => {
                                         );
                                     })}
                                 </div>
+
+
                             </div>
+                            <a 
+                            className='btn btn-primary mt-4 w-full h-0 buy-now-btn overflow-hidden max-w-[70%] mx-auto rounded'
+                            href={`https://api.whatsapp.com/send?phone=555481420633&text=Ol%C3%A1,+gostaria+de+mais+detalhes+sobre+${plan.name.replace(' ','+')}`}>Garanta já o produto</a>
                         </div>
                     );    
                 })}
@@ -37,4 +45,4 @@ const ProductCards = ({plans}) => {
     );
 }
 
-export default ProductCards;
+export default ProductCards; 

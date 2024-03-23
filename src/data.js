@@ -32,7 +32,7 @@ import QuestionMarkIcn from "../src/assets/img/faq/icons/question-mark.svg";
 export const header = {
   logo: Logo,
   btnLoginText: "Fale Conosco",
-  link: "https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?",
+  link: "https://api.whatsapp.com/send?phone=555481420633&text=Olá,+gostaria+de+algumas+informa%C3%A7%C3%B5es+de+Mel+Selvagem",
   btnSignupText: "Sign Up",
 };
 
@@ -84,7 +84,7 @@ export const about = {
     "<b>Abelhas são seres únicos;</b> O ser humano, que ao longo do tempo, domesticou os mais diversos animais, mas jamais conseguiu fazer o mesmo com este singelo inseto. São seres livres e permaneceram <b>selvagens e indomáveis</b>. Aprendemos a lidar e aplicar as boas técnicas da apicultura, mas elas nunca abdicaram de seu instinto selvagem. Desta percepção, nasce o nosso nome, “O mel Selvagem”.",
 
   btnText: "Garanta aqui",
-  link: "https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?",
+  link: "https://api.whatsapp.com/send?phone=555481420633&text=Gostaria+de+saber+mais+sobre+os+produtos+Mel+Selvagem!",
 };
 
 export const workouts = {
@@ -143,7 +143,7 @@ export const pricing = {
     {
       cardType: 1,
       name: "Mel 500ml",
-      price: "30",
+      price: 30,
       image: Mel1,
       id: "Mel-500ml",
       tags: ["Mel", "500ml",],
@@ -158,7 +158,7 @@ export const pricing = {
     {
       cardType: 2,
       name: "Mel 1L",
-      price: "60",
+      price: 60,
       image: Mel2,
       id: "Mel-1l",
       tags: ["Mel", "1L"],

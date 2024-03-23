@@ -92,7 +92,7 @@ const About = () => {
         >
           <a
           className='link flex items-center gap-x-2 hover:gap-x-4 transition-all' 
-          href={link}>
+          href={link} target='_blank'>
             {btnText}
             <IoIosArrowDroprightCircle className='text-2xl'/>
           </a>
