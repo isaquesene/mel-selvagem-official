@@ -35,7 +35,7 @@ const ProductCards = ({plans}) => {
 
                             </div>
                             <a 
-                            className='btn btn-primary mt-4 w-full h-0 buy-now-btn overflow-hidden max-w-[70%] mx-auto rounded'
+                            className='btn btn-primary mt-4 w-full md:h-0 h-[50px] buy-now-btn overflow-hidden max-w-[70%] mx-auto rounded'
                             href={`https://api.whatsapp.com/send?phone=555481420633&text=Ol%C3%A1,+gostaria+de+mais+detalhes+sobre+${plan.name.replace(' ','+')}`}>Garanta já o produto</a>
                         </div>
                     );    

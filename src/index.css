@@ -87,4 +87,11 @@
   .card, .card-image, .card-image img, .buy-now-btn {
     transition: all .3s ease;
   }
+
+  .card-sm {
+    .buy-now-btn {
+      height: 50px;
+      margin-bottom: 10px;
+    }
+  }
 }
