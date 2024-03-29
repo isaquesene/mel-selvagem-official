@@ -41,7 +41,7 @@ export const nav = [
   { name: "Produto", href: "pricing" },
   { name: "Sobre nós", href: "about" },
   { name: "Perguntas", href: "faq" },
-  { name: "Nosso Blog", href: "banner" },
+  //{ name: "Nosso Blog", href: "banner" },
   { name: "Receitas", href: "community" },
 ];
 
