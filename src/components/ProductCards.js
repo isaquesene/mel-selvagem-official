@@ -6,7 +6,6 @@ const ProductCards = ({plans}) => {
             <div className='flex justify-center items-center flex-wrap'>
                 {plans.map((plan) => {
                     var preco = plan.price.toString().split('.');
-                    console.log(preco);
                     return (
                         <div className="max-w-sm rounded overflow-hidden shadow card border-2 m-2 p-3 min-h-[400px] w-[300px] min text-center box-border sm:mt-12" 
                         id={plan.id}>

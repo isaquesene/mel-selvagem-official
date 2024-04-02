@@ -31,8 +31,8 @@ const Header = () => {
   return (
     <header className={`${isActive ? 'bg-primary-400 py-[16px]' : 'bg-transparent py-[20px]'} fixed z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
       {/* logo */}
-      <a href=''>
-        <img className='lg:h-[75px] h-[60px]' src={logo} alt=''/>
+      <a href='/#'>
+        <img className='lg:h-[75px] h-[60px] scale-[1.3] ' src={logo} alt=''/>
         {/*<p className='text-white h-[30px]'>Mel selvagem</p>*/}
       </a>
       {/* nav inicial hidden*/}

@@ -141,33 +141,21 @@ export const pricing = {
   title: "Nosso produto",
   plans: [
     {
-      cardType: 1,
       name: "Mel 500ml",
       price: 30,
       image: Mel1,
       id: "Mel-500ml",
       tags: ["Mel", "500ml",],
-      list: [
-        {
-          name: "Delicioso mel puro de 500ml",
-          name: "Perfeito para adoçar suas receitas favoritas ou saborear diretamente da colher.",
-        },
-      ],
+      descricao: "Delicioso mel puro de 500ml. Perfeito para adoçar suas receitas favoritas ou saborear diretamente da colher.",
       delay: 600,
     },
     {
-      cardType: 2,
       name: "Mel 1L",
       price: 60,
       image: Mel2,
       id: "Mel-1l",
       tags: ["Mel", "1L"],
-      list: [
-        {
-          name: "Delicioso mel puro de 1L",
-          name: "Agora ainda maior, para poder aproveitar ainda mais.",
-        },
-      ],
+      descricao: "Mel puro a agora ainda maior, para poder aproveitar ainda mais.",
       delay: 800,
     },
   ],
