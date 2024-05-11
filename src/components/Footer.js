@@ -16,10 +16,10 @@ const Footer = () => {
       >
         {/* logo */}
         <a href='#'>
-          <img className='h-[80px] lg:h-[100px] ' src={logo} alt=''/>
+          <img className='h-[60px] min-w-[60px] lg:h-[90px] ' src={logo} alt=''/>
         </a>
         {/* texto footer */}
-        <p className='text-neutral-300 text-sm'>{copyrightText + currentYear + '.'}</p>
+        <p className='text-neutral-300 text-sm mx-6'>{copyrightText + currentYear + '.'}</p>
       </div>
     </footer>
   );

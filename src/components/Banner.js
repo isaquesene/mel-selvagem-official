@@ -1,21 +1,34 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 // import data
 import { banner } from '../data';
 import { autoScroll } from '../tools';
- 
+
 const Banner = () => {
   // estrutura banner
   const { titlePart1, titlePart2, subtitle, social_media, textBtn, link} = banner;
-  
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []); 
+
   var icon_apear = 700;
-  
+
   return (
     <section className='bg-neutral-500 h-screen' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
-      <div className='container mx-auto h-full'>
-        <div className='flex items-center h-full relative -space-x-48 lg:-space-x-24'>
+      <div className='md:container md:mx-auto h-full'>
+        <div className={'flex items-center h-full relative lg:-space-x-24 w-full px-[10%] md:p-0'}>
           {/* text */}
-          <div className='text-white flex-1 z-10 pl-6 lg:pl-0'>
+          <div className='text-white z-10  lg:pl-0 flex-3 md:flex-1'>
             <h1 className='h1 text-white mb-8' data-aos='fade-down' data-aos-delay='500'>
               {titlePart1} <br/> 
               <span className='text-primary-400'>{titlePart2}</span>
@@ -43,11 +56,13 @@ const Banner = () => {
           </div>
           {/* imagem */}
           <div 
-            className='w-full h-full bg-banner br-cover br-right lg:bg-center bg-no-repeat flex-1 bg-left'
+            className={'bg-banner bg-cover bg-no-repeat bg-left bg-center ' + (windowWidth <= 769 ? 
+              'absolute top-0 left-0 w-screen h-screen':
+              'w-full h-full flex-1')}
             data-aos='fade-left' 
             data-aos-delay='900'
           >
-            {/* imagem colheita */}
+          <div className={(windowWidth <= 769 ? "absolute inset-0 bg-black opacity-65" : "")}></div>
           </div>
         </div>
       </div>

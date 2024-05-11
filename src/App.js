@@ -29,7 +29,7 @@ const App = () => {
       <Banner />
       <Pricing />
       <About />
-      {/*<Workouts />*/}
+      <Workouts/>
       <Faq />
       <Community />
       {/* <Join /> */}

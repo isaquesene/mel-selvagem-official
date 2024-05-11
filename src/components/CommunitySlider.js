@@ -46,7 +46,7 @@ const CommunitySlider = ({testimonials}) => {
               {/* message & name */}
               <div className='text-center'>
                 <div className='mb-8 italic text-lg font-light'>{message}</div>
-                <div className='mb-8 text-lg font-light'>{descricao?(descricao):(<a className='link items-center transition-all' href={link} target='_blank'>Acesse o link</a>)}</div>
+                <div className='mb-8 text-lg font-light'>{descricao?(descricao):(<a className='link items-center transition-all hover:text-primary-400' href={link} target='_blank'>Acesse o link</a>)}</div>
                 <div className='flex itmes-center justify-center gap-x-[3px]'>
                   <span className='text-[30px] text-primary-400 font-bold'>~</span>
                   <div className='text-[20px] font-bold'>{name}</div>

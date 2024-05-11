@@ -15,7 +15,6 @@ import Manejo8 from "../src/assets/img/workouts/frascos2.png";
 import CommunityImg1 from "../src/assets/img/community/saladamel.jpeg";
 import CommunityImg2 from "../src/assets/img/community/17-bolacha-de-mel.jpg";
 import CommunityImg3 from "../src/assets/img/community/Costelinha-de-porco-assada-com-mel.jpg";
-import CommunityImg4 from "../src/assets/img/community/macamel.jpeg.jpg";
 import JoinImg from "../src/assets/img/join/frascos2.png";
 import JoinImgPix from "../src/assets/img/join/pix.png";
 //product images
@@ -24,7 +23,7 @@ import Mel2 from "../src/assets/img/pricing/Produto_2.jpg";
 
 // icons
 import UsersIcn from "../src/assets/img/about/icons/users-icn.svg";
-import CalendarIcn from "../src/assets/img/workouts/icons/calendar.svg";
+import WorkIcn from "../src/assets/img/workouts/icons/work.svg";
 import PriceIcn from "../src/assets/img/pricing/icons/price.svg";
 import CommunityIcn from "../src/assets/img/community/icons/community-icn.svg";
 import QuestionMarkIcn from "../src/assets/img/faq/icons/question-mark.svg";
@@ -40,8 +39,8 @@ export const nav = [
   { name: "Home", href: "banner" },
   { name: "Produtos", href: "pricing" },
   { name: "Sobre nós", href: "about" },
+  { name: "Nossa missão", href: "workouts" },
   { name: "Perguntas", href: "faq" },
-  //{ name: "Nosso Blog", href: "banner" },
   { name: "Receitas", href: "community" },
 ];
 
@@ -88,9 +87,15 @@ export const about = {
 };
 
 export const workouts = {
-  icon: CalendarIcn,
-  title: "Manejos no Apiário",
-  programs: [
+  icon: WorkIcn,
+  title: "Nossa missão",
+  content:[
+    "Bem-vindo à nossa comunidade apaixonada por apicultura!",
+    "Nossa missão é oferecer produtos de alta qualidade que capturam a essência pura e deliciosa da natureza, enquanto promovemos o respeito pelas pessoas e pelo meio ambiente.",
+    "Acreditamos firmemente na responsabilidade ambiental e social em todas as etapas do nosso processo de produção. Nossas práticas de colheita são realizadas com total respeito à natureza, garantindo a preservação dos ecossistemas onde nossas abelhas prosperam. Adotamos práticas de agricultura sustentável que protegem a biodiversidade e promovem a saúde das colmeias e dos ambientes circundantes. Isso inclui não usar pesticidas e promover a regeneração de habitats naturais.",
+    "Ao escolher os produtos do Apiário Mel Selvagem, você está apoiando não apenas um estilo de vida saudável e natural, mas também uma causa maior: a preservação dos preciosos ecossistemas da Terra e o apoio às práticas agrícolas sustentáveis. Junte-se a nós nessa jornada de sabores autênticos, sustentabilidade e respeito mútuo.",
+  ]
+  /*programs: [
     {
       image: Manejo1,
       name: "Manejo no Apiário",
@@ -131,7 +136,7 @@ export const workouts = {
       image: Manejo8,
       name: "Nossa produção",
     },
-  ],
+  ],*/
 };
 
 export const pricing = {
@@ -197,37 +202,45 @@ export const faq = {
   accordions: [
     {
       question: "Por que usar mel no meu dia a dia?",
-      answer:
-        "• Nós aprendemos com nossas mães quando éramos crianças a usar o mel como remédio, em caso de dor de garganta ou tosse. De fato, o mel é muito bom para isso, pois é um cicatrizante e bactericida. Mas ficar apenas nisso é utilizar pouco deste poderoso alimento. Por exemplo, como o mel é um alimento sequestrante de radicais livres, retarda o envelhecimento precoce. " +
-        "Também, como nosso organismo não precisa digeri-lo para que circule em nossa corrente sanguínea, nos fornece energia de forma imediata. \nAlém disso, será um excelente substituto para adoçar bebidas como café, sucos ou chás. Enfim, convidamos você a degustar e conhecer este alimento orgânico e milenar.",
+      answer:[
+        "• Nós aprendemos com nossas mães quando éramos crianças a usar o mel como remédio, em caso de dor de garganta ou tosse. De fato, o mel é muito bom para isso, pois é um cicatrizante e bactericida. Mas ficar apenas nisso é utilizar pouco deste poderoso alimento. Por exemplo, como o mel é um alimento sequestrante de radicais livres, retarda o envelhecimento precoce. Também, como nosso organismo não precisa digeri-lo para que circule em nossa corrente sanguínea, nos fornece energia de forma imediata.",
+        'Além disso, será um excelente substituto para adoçar bebidas como café, sucos ou chás. Enfim, convidamos você a degustar e conhecer este alimento orgânico e milenar.'
+      ]
     },
     {
       question: "Por que o mel cristaliza?",
-      answer:
-        "• Ao contrário do que se pensa, todo mel puro e genuíno vai cristalizar ao longo do tempo ou mesmo em temperaturas mais baixas. O mel se constitui principalmente de duas substâncias, a glicose e a frutose. Com o passar do tempo e com o hidrogênio presente no ambiente, a combinação deste com a frutose produzirá o hidreto de frutose, o qual, em temperatura ambiente, é sólido, ou seja, gera a cristalização do mel. " +
-        "O mel cristalizado terá uma consistência de doce de leite e não há nenhum problema em consumi-lo assim; do ponto de vista nutricional, são idênticos. Saiba, inclusive, que em muitos países europeus, a consistência pastosa ou cristalizada é a forma preferida de se consumir mel, pois fica mais fácil de passá-lo no pão ou bolachas. Então, se o mel cristalizar, você pode usá-lo normalmente e é um ótimo indicador de sua autenticidade.",
+      answer:[
+        "• Ao contrário do que se pensa, todo mel puro e genuíno vai cristalizar ao longo do tempo ou mesmo em temperaturas mais baixas. O mel se constitui principalmente de duas substâncias, a glicose e a frutose. Com o passar do tempo e com o hidrogênio presente no ambiente, a combinação deste com a frutose produzirá o hidreto de frutose, o qual, em temperatura ambiente, é sólido, ou seja, gera a cristalização do mel. O mel cristalizado terá " + 
+        "uma consistência de doce de leite e não há nenhum problema em consumi-lo assim; do ponto de vista nutricional, são idênticos. Saiba, inclusive, que em muitos países europeus, a consistência pastosa ou cristalizada é a forma preferida de se consumir mel, pois fica mais fácil de passá-lo no pão ou bolachas. Então, se o mel cristalizar, você pode usá-lo normalmente e é um ótimo indicador de sua autenticidade.",
+      ]
     },
     {
       question:
         "Se o mel cristalizar, como faço para retornar ao modo líquido?",
-      answer:
+      answer:[
         "• Você pode colocá-lo em banho-maria. No entanto, não deixe que a temperatura da água ultrapasse 45°C, para evitar que o mel oxide e fique impróprio para o consumo.",
+      ]
     },
     {
       question: "Por que o mel tem cores diferentes?",
-      answer:
+      answer:[
         "• Para produzirem o mel, as abelhas coletam néctar das flores que encontram na natureza. Espécies vegetais diferentes geram mel de diferentes colorações. A cor do mel será determinada pela quantidade de sais minerais que contém.",
+      ]
     },
     {
       question: "Quanto tempo pode durar o mel?",
-      answer:
-        "• Devido à sua baixa umidade e alto teor de açúcar, o mel possui uma longa vida útil quando armazenado corretamente. De fato, os arqueólogos já encontraram potes de mel em tumbas egípcias com mais de 3000 anos de idade, ainda comestíveis! Isso faz do mel um dos alimentos mais duráveis e estáveis naturalmente. Em conformidade com a legislação, você encontrará prazo de validade de dois anos para o consumo nas embalagens do produto comercializado no Brasil.",
+      answer:[
+        "• Devido à sua baixa umidade e alto teor de açúcar, o mel possui uma longa vida útil quando armazenado corretamente. De fato, os arqueólogos já encontraram potes de mel em tumbas egípcias com mais de 3000 anos de idade, ainda comestíveis! Isso faz do mel um dos alimentos mais duráveis e estáveis naturalmente.",
+        "Em conformidade com a legislação, você encontrará prazo de validade de dois anos para o consumo nas embalagens do produto comercializado no Brasil."
+      ]
     },
     {
       question: "Outras informações importantes sobre o mel?",
-      answer:
-        "• O mel é um produto conhecido desde a antiguidade. Para se ter uma idéia, chineses criam abelhas há seis mil anos. Desde sempre foi utilizado para o tratamento de doenças respiratórias ou como cicatrizante. Hoje sabemos que o mel é um poderoso agente biológico, capaz de eliminar micro-organismos como bactérias, fungos, leveduras, vírus, etc. O principal agente bacteriano contido no mel é o peróxido de hidrogênio. " +
-        "Outra atividade antibiótica é o processo de osmose. Como o mel é muito viscoso, contém pouca água, cerca de 18%, e elimina bactérias por desidratação (bactérias têm 75% do corpo composto por água). Um fato é inquestionável, na base de nossa saúde, se encontra em uma dieta com alimentos de qualidade e o mel, será sempre um componente valioso em nossa alimentação.",
+      answer:[
+        "• O mel é um produto conhecido desde a antiguidade. Para se ter uma idéia, chineses criam abelhas há seis mil anos. Desde sempre foi utilizado para o tratamento de doenças respiratórias ou como cicatrizante.",
+        "Hoje sabemos que o mel é um poderoso agente biológico, capaz de eliminar micro-organismos como bactérias, fungos, leveduras, vírus, etc. O principal agente bacteriano contido no mel é o peróxido de hidrogênio. Outra atividade antibiótica é o processo de osmose. Como o mel é muito viscoso, contém pouca água, cerca de 18%, e elimina bactérias por desidratação (bactérias têm 75% do corpo composto por água).",
+        "Um fato é inquestionável, na base de nossa saúde, se encontra em uma dieta com alimentos de qualidade e o mel, será sempre um componente valioso em nossa alimentação. Outra atividade antibiótica é o processo de osmose. Como o mel é muito viscoso, contém pouca água, cerca de 18%, e elimina bactérias por desidratação (bactérias têm 75% do corpo composto por água). Um fato é inquestionável, na base de nossa saúde, se encontra em uma dieta com alimentos de qualidade e o mel, será sempre um componente valioso em nossa alimentação.",
+      ]
     },
   ],
 };

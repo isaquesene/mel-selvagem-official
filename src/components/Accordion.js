@@ -49,9 +49,13 @@ const Accordion = ({ accordion, isOpen, setOpenAccordionId, id }) => {
         <div
           className={`${
             isOpen ? "active-acc" : "min-0 max-h-0"
-          }  overflow-hidden flex justify-center transition-all px-[30px]`}
+          }  overflow-hidden flex justify-center transition-all px-[30px] text-justify`}
         >
-          <div className="mt-6">{answer}</div>
+          <div className="mt-6">
+            {answer.map((paragraph, index) => (
+              <p className="py-2" key={index}>{paragraph}</p>
+            ))}
+          </div>
         </div>
       </div>
     </div>
