@@ -18,9 +18,9 @@ const ProductCards = ({plans}) => {
 
                             {/*Hidden part*/}
                             <div className="p-2 pt-4">    
-                                <p className="h3 center">
+                                {/*<p className="h3 center">
                                     <span className='text-primary-400 h5'>R$ </span>{preco[0]}<span className='h6'>{',' + (preco[1] === undefined ? '00' : preco[1])}</span>
-                                </p>
+                                </p>*/}
                                 <div className ="p-1 pt-4">
                                     {plan.tags.map((tag) => {
                                         return (
@@ -35,7 +35,7 @@ const ProductCards = ({plans}) => {
                             </div>
                             <a 
                             className='btn btn-primary mt-4 w-full md:h-0 h-[50px] buy-now-btn overflow-hidden max-w-[70%] mx-auto rounded'
-                            href={`https://api.whatsapp.com/send?phone=555481420633&text=Ol%C3%A1,+gostaria+de+mais+detalhes+sobre+${plan.name.replace(' ','+')}`}>Garanta já o produto</a>
+                            href={`https://melselvagem.lojaintegrada.com.br/`}>Garanta já o produto</a>
                         </div>
                     );    
                 })}

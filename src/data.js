@@ -20,6 +20,7 @@ import JoinImgPix from "../src/assets/img/join/pix.png";
 //product images
 import Mel1 from "../src/assets/img/pricing/Produto_1.png";
 import Mel2 from "../src/assets/img/pricing/Produto_2.jpg";
+import Mel3 from "../src/assets/img/pricing/Produto_3.jpg";
 
 // icons
 import UsersIcn from "../src/assets/img/about/icons/users-icn.svg";
@@ -60,7 +61,7 @@ export const banner = {
     {
       logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9Im5vbmUiIHN0cm9rZS1saW5lam9pbj0ibm9uZSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48ZyB0cmFuc2Zvcm09InNjYWxlKDUuMzMzMzMsNS4zMzMzMykiPjxwYXRoIGQ9Ik00MS41LDIxLjF2LTQuNmMwLC01LjUgLTQuNSwtMTAgLTEwLC0xMGgtMTVjLTUuNSwwIC0xMCw0LjUgLTEwLDEwdjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2IyODQwNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD48cGF0aCBkPSJNNi41LDI1LjZ2NS45YzAsNS41IDQuNSwxMCAxMCwxMGgxNWM1LjUsMCAxMCwtNC41IDEwLC0xMHYtNC42IiBmaWxsPSJub25lIiBzdHJva2U9IiNiMjg0MDUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+PHBhdGggZD0iTTI0LDE1LjVjLTQuNywwIC04LjUsMy44IC04LjUsOC41YzAsNC43IDMuOCw4LjUgOC41LDguNWM0LjcsMCA4LjUsLTMuOCA4LjUsLTguNWMwLC00LjcgLTMuOCwtOC41IC04LjUsLTguNXoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2IyODQwNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciI+PC9wYXRoPjxwYXRoIGQ9Ik0zNCwxMmMtMS4xLDAgLTIsMC45IC0yLDJjMCwxLjEgMC45LDIgMiwyYzEuMSwwIDIsLTAuOSAyLC0yYzAsLTEuMSAtMC45LC0yIC0yLC0yeiIgZmlsbD0iI2IyODQwNSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIj48L3BhdGg+PC9nPjwvZz4KPC9zdmc+",
       alt: "Instagram",
-      link: "https://www.instagram.com/apiariomelselvagem?igsh=MTc4czRrZDh3c3o4aw==",
+      link: "https://www.instagram.com/melselvagem?igsh=bXgwOTdmOGt2ZW9o",
     },
     {
       logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0iI2IyODQwNSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg1LjMzMzMzLDUuMzMzMzMpIj48cGF0aCBkPSJNMjQsMy45OTgwNWMtMTEuMDI3NzEsMCAtMjAsOC45NzIyOSAtMjAsMjBjMCwwLjc1NTcxIDAuMDQyODUsMS41MDMyNiAwLjEyNSwyLjIzODI4YzAuMDQ1NTgsMC41NDQwNyAwLjM4MzE1LDEuMDIwNDEgMC44ODEzNywxLjI0MzcxYzAuNDk4MjIsMC4yMjMzIDEuMDc4NDIsMC4xNTgyOCAxLjUxNDg2LC0wLjE2OTc1YzAuNDM2NDQsLTAuMzI4MDMgMC42NjAyMSwtMC44NjcyOCAwLjU4NDIzLC0xLjQwNzk0Yy0wLjA2OTg1LC0wLjYyNDk4IC0wLjEwNTQ3LC0xLjI2MDAxIC0wLjEwNTQ3LC0xLjkwNDNjMCwtOS40MDYyOSA3LjU5MzcxLC0xNyAxNywtMTdjNi4yNzYxNSwwIDExLjczODkzLDMuMzkwMDcgMTQuNjg3NSw4LjQzMzU5YzAuMjY0ODcsMC40NzM3OSAwLjc2NTAyLDAuNzY3NTUgMS4zMDc4MiwwLjc2ODEzYzAuNTQyOCwwLjAwMDU4IDEuMDQzNTgsLTAuMjkyMTEgMS4zMDk0NiwtMC43NjUzM2MwLjI2NTg4LC0wLjQ3MzIzIDAuMjU1MzksLTEuMDUzMTcgLTAuMDI3NDQsLTEuNTE2NDdjLTMuNDY5NDMsLTUuOTM0NDcgLTkuOTE5NDksLTkuOTE5OTIgLTE3LjI3NzM0LC05LjkxOTkyek0xNy4yNDAyMywxNWMtMC4zMTksMCAtMC44MzQ0NCwwLjExOTY2IC0xLjI3MzQ0LDAuNTk3NjZjLTAuNDM4LDAuNDc2IC0xLjY3MTg3LDEuNjMwNDcgLTEuNjcxODcsMy45ODA0N2MwLDIuMzUgMS43MTAyMiw0LjYxOTQ1IDEuOTQ5MjIsNC45Mzk0NWMwLjIzOCwwLjMxNyAzLjMwMzIsNS4yOTQ5OCA4LjE1ODIsNy4yMDg5OGM0LjAzNCwxLjU5IDQuODU0NDcsMS4yNzMzNiA1LjczMDQ3LDEuMTkzMzZjMC44NzYsLTAuMDc4IDIuODI2NjEsLTEuMTUzNTMgMy4yMjQ2MSwtMi4yNjk1M2MwLjM5OCwtMS4xMTYgMC4zOTgyNSwtMi4wNzA1OCAwLjI4MTI1LC0yLjI2NzU4Yy0wLjExOSwtMC4xOTkgLTAuNDM4MDIsLTAuMzE5NTkgLTAuOTE2MDIsLTAuNTU4NTljLTAuNDc3LC0wLjIzOSAtMi44MjM3MiwtMS4zOTM3MyAtMy4yNjE3MiwtMS41NTI3M2MtMC40MzgsLTAuMTU5IC0wLjc1ODE3LC0wLjIzOTcyIC0xLjA3NjE3LDAuMjM4MjhjLTAuMzE4LDAuNDc4IC0xLjIzMjcyLDEuNTUzMDkgLTEuNTExNzIsMS44NzEwOWMtMC4yNzksMC4zMiAtMC41NTcxNiwwLjM2MDA5IC0xLjAzNTE2LDAuMTIxMDljLTAuNDc5LC0wLjI0MSAtMi4wMTU4LC0wLjc0NDA5IC0zLjg0MTgsLTIuMzcxMDljLTEuNDIsLTEuMjY1IC0yLjM3NTMsLTIuODI4NjQgLTIuNjU0MywtMy4zMDY2NGMtMC4yNzgsLTAuNDc2IC0wLjAzMDAyLC0wLjczNzYxIDAuMjA4OTgsLTAuOTc0NjFjMC4yMTUsLTAuMjE0IDAuNDc3OCwtMC41NTY5NCAwLjcxNjgsLTAuODM1OTRjMC4yMzcsLTAuMjc5IDAuMzE1NjEsLTAuNDc2OTIgMC40NzQ2MSwtMC43OTQ5MmMwLjE1OSwtMC4zMTcgMC4wNzk5NCwtMC41OTY5NCAtMC4wMzkwNiwtMC44MzU5NGMtMC4xMTksLTAuMjM5IC0xLjA0NzY2LC0yLjYwMTg3IC0xLjQ3MjY2LC0zLjU0Njg3Yy0wLjM1NywtMC43OTQgLTAuNzMzMjIsLTAuODExMjIgLTEuMDc0MjIsLTAuODI0MjJjLTAuMjc4LC0wLjAxMSAtMC41OTgwMiwtMC4wMTE3MiAtMC45MTYwMiwtMC4wMTE3MnpNNDIuNDc4NTIsMjEuMjA4OThjLTAuNDIzNDksLTAuMDA2MzkgLTAuODI5OTUsMC4xNjY1MyAtMS4xMTkwMywwLjQ3NjA3Yy0wLjI4OTA4LDAuMzA5NTQgLTAuNDMzODQsMC43MjY4NiAtMC4zOTg1NSwxLjE0ODkzYzAuMDI2NDksMC4zODI4IDAuMDM5MDYsMC43Njk4NSAwLjAzOTA2LDEuMTY0MDZjMCw5LjQwNjI5IC03LjU5MzcxLDE3IC0xNywxN2MtMy4wMDE1OCwwIC01LjgwOTQsLTAuNzgwNTIgLTguMjU3ODEsLTIuMTQ0NTNjLTAuMzQ1MTIsLTAuMTkyMzUgLTAuNzUyMiwtMC4yNDA3OCAtMS4xMzI4MSwtMC4xMzQ3N2wtNy4zODY3MiwyLjA2MDU1bDIuMDYyNSwtNy4zODI4MWMwLjE0NDI0LC0wLjUxNjQxIDAuMDAxOTgsLTEuMDcwNTQgLTAuMzczMTgsLTEuNDUzNjFjLTAuMzc1MTcsLTAuMzgzMDYgLTAuOTI2MjIsLTAuNTM2ODMgLTEuNDQ1NTIsLTAuNDAzMzhjLTAuNTE5MywwLjEzMzQ2IC0wLjkyNzkzLDAuNTMzODYgLTEuMDcxOTIsMS4wNTAzNGwtMi4zMDA3OCw4LjIzNjMzYy0wLjUwNDk1LDEuODAzNCAxLjI3ODE4LDMuNTg2NDQgMy4wODIwMywzLjA4MjAzbDcuNzY3NTgsLTIuMTY3OTdjMi43MjczOCwxLjM5NjA4IDUuNzg0MzksMi4yNTc4MSA5LjA1NjY0LDIuMjU3ODFjMTEuMDI3NzEsMCAyMCwtOC45NzIyOSAyMCwtMjBjMCwtMC40NTk3OSAtMC4wMTUzNywtMC45MTU4OSAtMC4wNDY4NywtMS4zNzEwOWMtMC4wNDMwNSwtMC43ODY0OSAtMC42ODcwNCwtMS40MDU3NCAtMS40NzQ2MSwtMS40MTc5N3oiPjwvcGF0aD48L2c+PC9nPgo8L3N2Zz4=",
@@ -83,7 +84,7 @@ export const about = {
     "<b>Abelhas são seres únicos;</b> O ser humano, que ao longo do tempo, domesticou os mais diversos animais, mas jamais conseguiu fazer o mesmo com este singelo inseto. São seres livres e permaneceram <b>selvagens e indomáveis</b>. Aprendemos a lidar e aplicar as boas técnicas da apicultura, mas elas nunca abdicaram de seu instinto selvagem. Desta percepção, nasce o nosso nome, “O mel Selvagem”.",
 
   btnText: "Garanta aqui",
-  link: "https://api.whatsapp.com/send?phone=555481420633&text=Gostaria+de+saber+mais+sobre+os+produtos+Mel+Selvagem!",
+  link: "https://melselvagem.lojaintegrada.com.br/",
 };
 
 export const workouts = {
@@ -143,23 +144,23 @@ export const pricing = {
   // CardType 1: Foto do card sem fundo
   // CardType 2: Foto do card sem fundo
   icon: PriceIcn,
-  title: "Nosso produto",
+  title: "Nossos produtos",
   plans: [
     {
       name: "Mel 500ml",
       price: 30,
-      image: Mel1,
+      image: Mel3,
       id: "Mel-500ml",
-      tags: ["Mel", "500ml",],
+      tags: ["Mel", "350g",],
       descricao: "Delicioso mel puro de 500ml. Perfeito para adoçar suas receitas favoritas ou saborear diretamente da colher.",
       delay: 600,
     },
     {
       name: "Mel 1L",
       price: 60,
-      image: Mel2,
+      image: Mel3,
       id: "Mel-1l",
-      tags: ["Mel", "1L"],
+      tags: ["Mel", "500g"],
       descricao: "Mel puro a agora ainda maior, para poder aproveitar ainda mais.",
       delay: 800,
     },
@@ -251,7 +252,7 @@ export const join = {
   subtitle: "Frasco de 500ml.",
   pix: JoinImgPix,
   btnText: "Garanta aqui",
-  link: "https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?",
+  link: "https://melselvagem.lojaintegrada.com.br/",
 };
 
 export const footer = {
