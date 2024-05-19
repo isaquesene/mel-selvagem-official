@@ -147,7 +147,7 @@ export const pricing = {
   title: "Nossos produtos",
   plans: [
     {
-      name: "Mel 500ml",
+      name: "Mel 350g",
       price: 30,
       image: Mel3,
       id: "Mel-500ml",
@@ -156,7 +156,7 @@ export const pricing = {
       delay: 600,
     },
     {
-      name: "Mel 1L",
+      name: "Mel 500g",
       price: 60,
       image: Mel3,
       id: "Mel-1l",
