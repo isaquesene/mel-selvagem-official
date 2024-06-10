@@ -24,7 +24,7 @@ const Banner = () => {
   var icon_apear = 700;
 
   return (
-    <section className='bg-neutral-500 h-screen' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
+    <section className='bg-banner bg-cover bg-no-repeat bg-left bg-neutral-500 h-screen' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
       <div className='md:container md:mx-auto h-full'>
         <div className={'flex items-center h-full relative lg:-space-x-24 w-full px-[10%] md:p-0'}>
           {/* text */}
@@ -36,17 +36,9 @@ const Banner = () => {
             {/*<p className='max-w-[415px] text-body-md lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>
               {subtitle}
             </p>*/}
-            <div 
-              className={'bg-banner bg-cover bg-no-repeat bg-left bg-center ' + (windowWidth <= 769 ? 
-                'absolute top-0 left-0 w-screen h-screen':
-                'w-full h-full flex-1')}
-              data-aos='fade-left' 
-              data-aos-delay='900'
-            >
-              <p className='max-w-[415px] mb-8' data-aos='fade-down' data-aos-delay='600'>
-                {subtitle1}
-              </p>
-            </div>
+            <p className='max-w-[415px] mb-8' data-aos='fade-down' data-aos-delay='600'>
+              {subtitle1}
+            </p>
             {/* redes sociais */} 
             <ul className='flex gap-x-8 mb-8'>
             {social_media.map((item, index) => {
