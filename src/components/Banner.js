@@ -33,9 +33,9 @@ const Banner = () => {
               {titlePart1} <br/> 
               <span className='text-primary-400'>{titlePart2}</span>
             </h1>
-            <p className='max-w-[415px] text-body-md lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>
+            {/*<p className='max-w-[415px] text-body-md lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>
               {subtitle}
-            </p>
+            </p>*/}
             <p className='max-w-[415px] mb-8' data-aos='fade-down' data-aos-delay='600'>
               {subtitle1}
             </p>
