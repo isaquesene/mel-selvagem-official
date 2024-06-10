@@ -36,7 +36,7 @@ const Banner = () => {
             <p className='max-w-[415px] text-body-md lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>
               {subtitle}
             </p>
-            <p className='max-w-[415px] text-body-sm lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>
+            <p className='max-w-[415px] mb-8' data-aos='fade-down' data-aos-delay='600'>
               {subtitle1}
             </p>
             {/* redes sociais */} 
