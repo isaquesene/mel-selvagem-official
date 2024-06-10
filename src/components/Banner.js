@@ -6,7 +6,7 @@ import { autoScroll } from '../tools';
 
 const Banner = () => {
   // estrutura banner
-  const { titlePart1, titlePart2, subtitle, social_media, textBtn, link} = banner;
+  const { titlePart1, titlePart2, subtitle, subtitle1, social_media, textBtn, link} = banner;
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -33,7 +33,12 @@ const Banner = () => {
               {titlePart1} <br/> 
               <span className='text-primary-400'>{titlePart2}</span>
             </h1>
-            <p className='max-w-[415px] text-body-md lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>{subtitle}</p>
+            <p className='max-w-[415px] text-body-md lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>
+              {subtitle}
+            </p>
+            <p className='max-w-[415px] text-body-sm lg:text-body-lg mb-8' data-aos='fade-down' data-aos-delay='600'>
+              {subtitle1}
+            </p>
             {/* redes sociais */} 
             <ul className='flex gap-x-8 mb-8'>
             {social_media.map((item, index) => {

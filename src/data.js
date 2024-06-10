@@ -49,6 +49,7 @@ export const banner = {
   titlePart1: "Do produtor",
   titlePart2: "direto para a sua mesa",
   subtitle: " Mel puro, natural e saudável",
+  subtitle1: " Mel do Rio Grande do Sul: sua compra apoia a recuperação econômica e fortalece nossa comunidade após as enchentes.",
   textBtn: "Garanta aqui",
   link: "https://api.whatsapp.com/send?phone=555481420633&text=Ola+Tudo+Bem?",
   img: "",
