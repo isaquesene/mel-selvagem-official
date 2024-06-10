@@ -24,7 +24,7 @@ const Banner = () => {
   var icon_apear = 700;
 
   return (
-    <section className='bg-neutral-500 h-screen' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
+    <section className='h-screen' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
       <div className='md:container md:mx-auto h-full'>
         <div className={'flex items-center h-full relative lg:-space-x-24 w-full px-[10%] md:p-0'}>
           {/* text */}
@@ -67,7 +67,7 @@ const Banner = () => {
             data-aos='fade-left' 
             data-aos-delay='900'
           >
-          
+            <div className={(windowWidth <= 769 ? "absolute inset-0 bg-black opacity-65" : "")}></div>
           </div>
         </div>
       </div>
