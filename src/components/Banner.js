@@ -24,7 +24,7 @@ const Banner = () => {
   var icon_apear = 700;
 
   return (
-    <section className='bg-cover bg-no-repeat h-screen' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
+    <section className='bg-banner bg-cover bg-no-repeat h-screen' id='banner'> {/*Diminuição da alturado baner para poder puxar o conteúdo mais pra cima e ma*/}
       <div className='md:container md:mx-auto h-full'>
         <div className={'flex items-center h-full relative lg:-space-x-24 w-full px-[10%] md:p-0'}>
           {/* text */}
