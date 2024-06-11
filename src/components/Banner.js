@@ -14,7 +14,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className='bg-rs bg-cover bg-no-repeat bg-left-top bg-smaller bg-opacity-90 bg-neutral-500 h-screen' id='banner'>
+    <section className='bg-rs bg-cover bg-no-repeat bg-left-top bg-smaller bg-opacity-50 bg-neutral-500 h-screen' id='banner'>
       <div className='md:container md:mx-auto h-full'>
         <div className='flex items-center h-full relative lg:-space-x-24 w-full px-[10%] md:p-0'>
           <div className='text-white z-10 lg:pl-0 flex-3 md:flex-1'>
@@ -50,7 +50,7 @@ const Banner = () => {
             </a>
           </div>
           <div 
-            className={`bg-banner bg-cover bg-no-repeat bg-left-top bg-opacity-70 ${windowWidth <= 769 ? 
+            className={`bg-banner bg-cover bg-no-repeat bg-left bg-center ${windowWidth <= 769 ? 
               'absolute top-0 left-0 w-screen h-screen' : 
               'w-full h-full flex-1'}`}
             data-aos='fade-left' 
