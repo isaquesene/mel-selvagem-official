@@ -45,7 +45,7 @@ module.exports = {
         cover: 'cover',
         contain: 'contain',
         custom: '95%',
-        smaller: '40%', // Adicionando um tamanho menor
+        smaller: '50%', // Adicionando um tamanho menor
       },
       backgroundPosition: {
         bottom: 'bottom',
