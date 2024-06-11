@@ -21,7 +21,7 @@ module.exports = {
         primary: {
           100: '#a5ffce',
           200: '#4ae290',
-          300: '25c870',
+          300: '#25c870',
           400: '#b28405',
           500: '#efb810',
         },
@@ -30,7 +30,6 @@ module.exports = {
           200: '#dedee3',
           300: '#9797a1',
           400: '#595962',
-          //500: '#131316',
           500: '#000000',
         },
         page: '#fcfcff',
@@ -46,8 +45,9 @@ module.exports = {
         cover: 'cover',
         contain: 'contain',
         custom: '95%',
+        smaller: '50%', // Adicionando um tamanho menor
       },
-      backgrounfPosition: {
+      backgroundPosition: {
         bottom: 'bottom',
         center: 'center',
         left: 'left',
@@ -58,6 +58,14 @@ module.exports = {
         'right-bottom': 'right bottom',
         'right-top': 'right top',
         top: 'top',
+        'top-left': 'top left', // Adicionando posição no topo esquerdo
+      },
+      opacity: {
+        90: '0.9', // Definindo opacidade customizada
+        80: '0.8',
+        70: '0.7',
+        60: '0.6',
+        50: '0.5',
       },
     },
   },
