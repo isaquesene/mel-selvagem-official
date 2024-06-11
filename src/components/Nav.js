@@ -12,11 +12,11 @@ const Nav = () => {
         {nav.map((item, idx) => {
           return <li key={idx}>
             <a 
-              className='hover:text-primary-500 cursor-pointer shadow-md'
+              className='hover:text-primary-500 cursor-pointer '
               // href={'#'+item.href}
               onClick={() => autoScroll(item.href)}
             >
-              {item.name}
+              <span className='shadow-lg'>{item.name}</span>
             </a>
           </li>
         })}
