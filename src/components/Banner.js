@@ -14,7 +14,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className='relative bg-rs bg-left-top bg-smaller h-screen -mt-20' id='banner'>
+    <section className='relative bg-rs bg-no-repeat bg-left-top bg-smaller bg-neutral-500 h-screen -mt-20' id='banner'>
       <div className='md:container md:mx-auto h-full'>
         <div className='flex items-center h-full relative lg:-space-x-24 w-full px-[10%] md:p-0'>
           <div className='text-white z-10 lg:pl-0 flex-3 md:flex-1'>
