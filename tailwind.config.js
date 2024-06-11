@@ -67,6 +67,18 @@ module.exports = {
         60: '0.6',
         50: '0.5',
       },
+      spacing: {
+        '-20': '-5rem',
+        '-16': '-4rem',
+        '-12': '-3rem',
+        '-8': '-2rem',
+        '-4': '-1rem',
+      },
+      boxShadow: {
+        custom: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+        customDark: '0 10px 20px rgba(0, 0, 0, 0.25)',
+        text: '0 2px 4px rgba(0, 0, 0, 0.1)', // Adicionando sombra para texto
+      },
     },
   },
   plugins: [],
