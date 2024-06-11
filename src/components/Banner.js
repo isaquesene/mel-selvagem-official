@@ -14,7 +14,16 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className='bg-rs bg-no-repeat bg-left-top bg-smaller bg-neutral-500 h-screen -mt-20' id='banner'>
+    <section className='bg-neutral-500 h-screen' id='banner'>
+        <div 
+        className={`bg-rs bg-no-repeat bg-left-top bg-smaller bg-neutral-500 h-screen -mt-20 ${windowWidth <= 769 ? 
+            'absolute top-0 left-0 w-screen h-screen' : 
+            'w-full h-full flex-1'}`}
+          data-aos='fade-left' 
+          data-aos-delay='900'
+        >
+          {windowWidth <= 769 && <div className="absolute inset-0 bg-black opacity-65"></div>}
+        </div>
       <div className='md:container md:mx-auto h-full'>
         <div className='flex items-center h-full relative lg:-space-x-24 w-full px-[10%] md:p-0'>
           <div className='text-white z-10 lg:pl-0 flex-3 md:flex-1'>
