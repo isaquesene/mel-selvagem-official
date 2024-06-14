@@ -36,6 +36,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('/src/assets/img/banner/bg.jpeg')",
+        banners: "url('/src/assets/img/banner/bgrs.jpeg')",
         rs: "url('/src/assets/img/rs/rs.png')",
         faq: "url('/src/assets/img/faq/bg.svg')",
         'auto-height': 'auto 100%',
