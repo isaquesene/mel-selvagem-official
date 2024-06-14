@@ -18,7 +18,7 @@ const Banner = () => {
       {/* Background div with bg-rs image */}
       <div 
         className={`absolute bg-rs bg-no-repeat bg-left-top bg-smaller bg-neutral-500 h-screen -mt-20 ${
-          windowWidth <= 769 ? 'absolute top-0 left-0 w-screen h-screen' : 'w-full h-full flex-1'
+          windowWidth <= 769 ? 'absolute top-0 left-0 w-screen h-screen' : 'hidden'
         }`}
         data-aos='fade-right' 
         data-aos-delay='900'
