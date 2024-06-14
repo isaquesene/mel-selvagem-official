@@ -73,12 +73,12 @@ const Banner = () => {
           {/* Right side background image */}
           <div 
             className={`bg-banner bg-cover bg-no-repeat bg-left bg-center ${
-              windowWidth <= 769 ? 'absolute top-0 left-0 w-screen h-screen' : 'w-full h-full flex-1'
+              windowWidth <= 769 ? 'top-0 left-0 w-screen h-screen' : 'w-full h-full flex-1'
             }`}
             data-aos='fade-left' 
             data-aos-delay='900'
           >
-            {windowWidth <= 769 && <div className="absolute inset-0 bg-black opacity-65"></div>}
+            {windowWidth <= 769 && <div className="inset-0 bg-black opacity-65"></div>}
           </div>
         </div>
       </div>
