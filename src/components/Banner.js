@@ -17,10 +17,13 @@ const Banner = () => {
     <section className='relative bg-neutral-500 h-screen' id='banner'>
       {/* Background div with bg-rs image */}
       <div 
-        className={`absolute bg-rs bg-no-repeat bg-left-top bg-smaller bg-neutral-500 h-screen -mt-20`}
+        className={`absolute bg-rs bg-no-repeat bg-left-top bg-smaller bg-neutral-500 h-screen -mt-20 ${
+          windowWidth <= 769 ? 'absolute top-0 left-0 w-screen h-screen' : 'w-full h-full flex-1'
+        }`}
         data-aos='fade-right' 
         data-aos-delay='900'
       >
+        {windowWidth <= 769 && <div className="absolute inset-0 bg-black opacity-65"></div>}
       </div>
 
       {/* Main content container */}
