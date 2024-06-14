@@ -32,8 +32,8 @@ import QuestionMarkIcn from "../src/assets/img/faq/icons/question-mark.svg";
 //midia social
 import IconGmail from "../src/assets/img/banner/social-media/gmail_icon.svg";
 import IconFacebook from "../src/assets/img/banner/social-media/facebook_icon2.svg";
-import IconInstagran from "../src/assets/img/banner/social-media/facebook_icon2.svg";
-import IconWhatsapp from "../src/assets/img/banner/social-media/facebook_icon2.svg";
+import IconInstagran from "../src/assets/img/banner/social-media/instagram_icon2.svg";
+import IconWhatsapp from "../src/assets/img/banner/social-media/whatsapp_icon2.svg";
 
 export const header = {
   logo: Logo,
