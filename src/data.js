@@ -21,7 +21,7 @@ import JoinImgPix from "../src/assets/img/join/pix.png";
 import Mel1 from "../src/assets/img/pricing/Produto_1.png";
 import Mel2 from "../src/assets/img/pricing/Produto_2.jpg";
 import Mel3 from "../src/assets/img/pricing/Produto_3.jpg";
-import Mel4 from "../src/assets/img/pricing/produto_4.jpg";
+import Mel4 from "../src/assets/img/pricing/produto_4.jpeg";
 
 // icons
 import UsersIcn from "../src/assets/img/about/icons/users-icn.svg";
