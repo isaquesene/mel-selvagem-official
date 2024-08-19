@@ -21,6 +21,7 @@ import JoinImgPix from "../src/assets/img/join/pix.png";
 import Mel1 from "../src/assets/img/pricing/Produto_1.png";
 import Mel2 from "../src/assets/img/pricing/Produto_2.jpg";
 import Mel3 from "../src/assets/img/pricing/Produto_3.jpg";
+import Mel4 from "../src/assets/img/pricing/produto_4.jpg";
 
 // icons
 import UsersIcn from "../src/assets/img/about/icons/users-icn.svg";
@@ -160,20 +161,11 @@ export const pricing = {
   title: "Nossos produtos",
   plans: [
     {
-      name: "Mel 350g",
-      price: 30,
-      image: Mel3,
-      id: "Mel-500ml",
-      tags: ["Mel", "350g",],
-      descricao: "Delicioso mel puro de 500ml. Perfeito para adoçar suas receitas favoritas ou saborear diretamente da colher.",
-      delay: 600,
-    },
-    {
       name: "Mel 500g",
-      price: 60,
-      image: Mel3,
+      //price: 60,
+      image: Mel4,
       id: "Mel-1l",
-      tags: ["Mel", "500g"],
+      //tags: ["Mel", "500g"],
       descricao: "Mel puro a agora ainda maior, para poder aproveitar ainda mais.",
       delay: 800,
     },

@@ -14,13 +14,13 @@ const ProductCards = ({plans}) => {
                                     <img className="relative w-full" src={plan.image} alt={plan.name}/>
                                 </div>
 
-                                <div className="font-bold h5 mt-6">{plan.name}</div>
+                                {/*<div className="font-bold h5 mt-6">{plan.name}</div>*/}
 
                             {/*Hidden part*/}
                             <div className="p-2 pt-4">    
                                 {/*<p className="h3 center">
                                     <span className='text-primary-400 h5'>R$ </span>{preco[0]}<span className='h6'>{',' + (preco[1] === undefined ? '00' : preco[1])}</span>
-                                </p>*/}
+                                </p>
                                 <div className ="p-1 pt-4">
                                     {plan.tags.map((tag) => {
                                         return (
@@ -29,13 +29,13 @@ const ProductCards = ({plans}) => {
                                             </span>
                                         );
                                     })}
-                                </div>
+                                </div>*/}
 
 
                             </div>
                             <a 
                             className='btn btn-primary mt-4 w-full md:h-0 h-[50px] buy-now-btn overflow-hidden max-w-[70%] mx-auto rounded'
-                            href={`https://melselvagem.lojaintegrada.com.br/`}>Garanta já o produto</a>
+                            href={`https://melselvagem.lojaintegrada.com.br/`}>Confira linha de produtos</a>
                         </div>
                     );    
                 })}
