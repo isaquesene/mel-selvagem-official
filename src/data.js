@@ -162,10 +162,10 @@ export const pricing = {
   plans: [
     {
       name: "Mel 500g",
-      //price: 60,
+      price: 60,
       image: Mel4,
       id: "Mel-1l",
-      //tags: ["Mel", "500g"],
+      tags: ["Mel", "500g"],
       descricao: "Mel puro a agora ainda maior, para poder aproveitar ainda mais.",
       delay: 800,
     },
